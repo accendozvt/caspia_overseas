@@ -1,26 +1,109 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* Caspia brand palette — carried over from the original site */
+  --color-primary: #584f82;
+  --color-primary-dark: #463e6b;
+  --color-primary-light: #7a6fb0;
+  --color-secondary: #28204f;
+  --color-secondary-deep: #1c163c;
+  /* Accent is now the brand orange (teal retired) */
+  --color-accent: #fa8835;
+  --color-accent-soft: #ffe4cc;
+  --color-orange: #fa8835;
+  --color-orange-dark: #e8721c;
+  --color-blue: #1156b6;
+  --color-red: #ef4848;
+  --color-ink: #2c3338;
+  --color-muted: #787878;
+  --color-mist: #f2f4f6;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-google-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.01em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---- Brand hero background: darker + lighter purples with a soft shine ---- */
+.bg-hero {
+  background-color: #28204f;
+  background-image:
+    radial-gradient(48rem 26rem at 82% -14%, rgba(139, 124, 205, 0.55) 0%, transparent 60%),
+    radial-gradient(40rem 22rem at 4% 116%, rgba(88, 79, 130, 0.5) 0%, transparent 58%),
+    radial-gradient(30rem 18rem at 96% 108%, rgba(250, 136, 53, 0.14) 0%, transparent 60%),
+    linear-gradient(158deg, #322863 0%, #241d47 52%, #171232 100%);
+}
+/* Subtle inner top highlight for extra shine */
+.bg-hero-shine::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(60% 40% at 50% 0%, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Rich text (blog articles, privacy policy) */
+.prose-caspia {
+  @apply text-ink leading-relaxed;
+}
+.prose-caspia h1,
+.prose-caspia h2 {
+  @apply text-secondary font-bold text-2xl md:text-3xl mt-10 mb-4;
+}
+.prose-caspia h3 {
+  @apply text-secondary font-bold text-xl md:text-2xl mt-8 mb-3;
+}
+.prose-caspia h4,
+.prose-caspia h5,
+.prose-caspia h6 {
+  @apply text-primary font-bold text-lg mt-6 mb-2;
+}
+.prose-caspia p {
+  @apply my-4;
+}
+.prose-caspia ul {
+  @apply list-disc pl-6 my-4 space-y-2;
+}
+.prose-caspia ol {
+  @apply list-decimal pl-6 my-4 space-y-2;
+}
+.prose-caspia a {
+  @apply text-blue underline underline-offset-2 hover:text-primary;
+}
+.prose-caspia img {
+  @apply rounded-2xl my-8 mx-auto shadow-md;
+}
+.prose-caspia blockquote {
+  @apply border-l-4 border-accent pl-4 italic text-muted my-6;
+}
+.prose-caspia table {
+  @apply w-full my-6 text-sm border-collapse;
+}
+.prose-caspia th,
+.prose-caspia td {
+  @apply border border-mist px-3 py-2 text-left;
+}
+.prose-caspia th {
+  @apply bg-mist font-semibold text-secondary;
+}
+.prose-caspia strong {
+  @apply text-secondary;
 }
