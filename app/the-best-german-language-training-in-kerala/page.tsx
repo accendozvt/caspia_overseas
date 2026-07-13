@@ -149,7 +149,7 @@ export default function AboutPage() {
             title="Why Caspia is Rated the Best German Language Institute in Kochi"
           />
           <p className="text-center text-muted max-w-3xl mx-auto -mt-6 mb-12">
-            {"Finding the right mentor is the first step toward your dream. In a city filled with options, Caspia Overseas stands out as the best German language institute in Kochi for distinct reasons. Our approach combines linguistic precision with cultural immersion, ensuring that our students don't just pass exams—they thrive in German society."}
+            {"Finding the right mentor is the first step toward your dream. In a city filled with options, Caspia Overseas stands out as the best German language institute in Kochi for distinct reasons. Our approach combines linguistic precision with cultural immersion, ensuring that our students don't just pass exams: they thrive in German society."}
           </p>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5 hover:shadow-lg transition-shadow">
@@ -181,7 +181,7 @@ export default function AboutPage() {
                 {"Expert Faculty & Hybrid Learning"}
               </h3>
               <p className="mt-3 text-sm text-ink/80">
-                {"We employ the finest trainers in the state—professionals who have mastered the nuances of the language. Understanding the busy schedules of our students, we offer:"}
+                {"We employ the finest trainers in the state: professionals who have mastered the nuances of the language. Understanding the busy schedules of our students, we offer:"}
               </p>
               <ul className="mt-4 space-y-2 text-sm text-ink/80">
                 <li>
@@ -412,7 +412,7 @@ export default function AboutPage() {
             <div className="bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5 hover:shadow-lg transition-shadow">
               <h3 className="font-extrabold text-secondary">Cultural Orientation</h3>
               <p className="mt-3 text-sm text-ink/80">
-                {'We prepare you for the "German way of life"—from recycling rules to "Ruhezeit" (Quiet hours), ensuring you integrate smoothly.'}
+                {'We prepare you for the "German way of life": from recycling rules to "Ruhezeit" (Quiet hours), ensuring you integrate smoothly.'}
               </p>
             </div>
           </div>

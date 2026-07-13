@@ -28,7 +28,7 @@ Applying from Kochi is hard. Applying while living in Berlin, Munich, or Frankfu
 
 #### The Power of "Probearbeiten" (Trial Work)
 
-In Germany, interviews only go so far. Employers love Probearbeiten—a trial working period. The Chancenkarte legally allows you to do a two-week trial job with an unlimited number of employers.
+In Germany, interviews only go so far. Employers love Probearbeiten: a trial working period. The Chancenkarte legally allows you to do a two-week trial job with an unlimited number of employers.
 
 Example: You want an IT Ausbildung. A tech company invites you for a 5-day trial. You show up, write some code, and interact with the team in German. If they like you, they hand you the 3-year Ausbildung contract on Friday afternoon. This is impossible to do from India.
 
@@ -108,7 +108,7 @@ As the best German consultancy in Kerala, Caspia Overseas manages the entire lif
 
 - Local Interview Prep: Before you fly, we optimize your Lebenslauf (CV) to German standards so you can hit the ground running.
 
-## Frequently Asked Questions (FAQ) — AEO Optimized
+## Frequently Asked Questions (FAQ): AEO Optimized
 
 1. What is the Chancenkarte (Opportunity Card)?
 
@@ -192,7 +192,7 @@ Contact Caspia Overseas Studies. We will evaluate your diploma/degree, enroll yo
 
 ## Your Golden Ticket to Germany
 
-The Chancenkarte is a 1-year visa that lets you land in Germany, work part-time, do trial interviews, and sign your Ausbildung contract locally — no more getting ghosted from Kochi.
+The Chancenkarte is a 1-year visa that lets you land in Germany, work part-time, do trial interviews, and sign your Ausbildung contract locally: no more getting ghosted from Kochi.
 
 DM us "POINTS" to get a free profile evaluation from our experts in Kochi!
 

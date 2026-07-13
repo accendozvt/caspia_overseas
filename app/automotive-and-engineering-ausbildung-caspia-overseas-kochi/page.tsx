@@ -28,7 +28,7 @@ const data: AusbildungPageData = {
     'Earn €1,100 - €1,400 Monthly Stipend | Zero Tuition Fees | The "Car Nation" Experience',
   intro: [
     "Germany is the birthplace of the automobile and the world's factory floor. From Mercedes-Benz to Siemens, German engineering is legendary. But they have a problem: their workforce is retiring.",
-    "In 2026, German industry is desperate for young technical talent from India. The Automotive and Engineering Ausbildung is your paid entry ticket into this elite sector. It is a Dual Vocational Training program where you don't pay to study—you get paid to work on the latest engines, robots, and CNC machines.",
+    "In 2026, German industry is desperate for young technical talent from India. The Automotive and Engineering Ausbildung is your paid entry ticket into this elite sector. It is a Dual Vocational Training program where you don't pay to study: you get paid to work on the latest engines, robots, and CNC machines.",
     "At Caspia Overseas Studies, recognized as the best German consultancy in Kerala, we specialize in placing technical students into these high-demand roles. From mastering technical German at our Vyttila campus to securing your contract, we engineer your success.",
   ],
   heroCta: { label: "Check Eligibility for Engineering", href: "https://wa.me/919446511115" },
@@ -214,7 +214,7 @@ const data: AusbildungPageData = {
     },
     {
       q: "Can I work at BMW or Mercedes?",
-      a: 'Yes, but competition is high. Big brands receive thousands of applications. We also apply to "Hidden Champions"—smaller German companies that are world leaders and eager to hire Indians.',
+      a: 'Yes, but competition is high. Big brands receive thousands of applications. We also apply to "Hidden Champions": smaller German companies that are world leaders and eager to hire Indians.',
     },
     {
       q: "Do I need a Blocked Account?",
@@ -292,7 +292,7 @@ const data: AusbildungPageData = {
   closing: {
     title: "Engineer Your Future in Germany",
     paragraphs: [
-      "Don't just read about German cars—build them. Join the Best German Language Institute in Kerala and start your high-tech engineering career today.",
+      "Don't just read about German cars: build them. Join the Best German Language Institute in Kerala and start your high-tech engineering career today.",
     ],
     contactHeading: "Contact Caspia Overseas Studies:",
     contactLines: [

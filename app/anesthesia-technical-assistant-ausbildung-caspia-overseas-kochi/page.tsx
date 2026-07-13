@@ -30,7 +30,7 @@ const data: AusbildungPageData = {
   subheadline: "Earn €1,100 - €1,350 Monthly Stipend | Zero Tuition Fees | No NEET Required",
   intro: [
     "Are you a Science student in Kerala fascinated by the high-tech world of the Operation Theatre (OT)? Do you want a medical career in Germany that is distinct from general nursing?",
-    "The Anesthesia Technical Assistant (ATA)—known in German as Anästhesietechnischer Assistent—is one of the most specialized and high-demand medical professions in Europe.",
+    "The Anesthesia Technical Assistant (ATA), known in German as Anästhesietechnischer Assistent, is one of the most specialized and high-demand medical professions in Europe.",
     "In 2026, German hospitals are actively recruiting international talent for this role. It is a Dual Vocational Training program where you get paid to learn. At Caspia Overseas Studies, recognized as the best German consultancy in Kerala, we specialize in placing students into these elite medical roles, providing end-to-end support from our Vyttila campus to the OT in Germany.",
   ],
   heroCta: { label: "Check Your ATA Eligibility", href: "https://wa.me/919446511115" },

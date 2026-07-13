@@ -83,7 +83,7 @@ const data: AusbildungPageData = {
           title: "1. Hotelfachmann / Hotelfachfrau",
           subtitle: "(Hotel Specialist)",
           paragraphs: [
-            "The All-Rounder: You learn everything—Reception, Housekeeping, Food & Beverage (F&B), and Marketing.",
+            "The All-Rounder: You learn everything: Reception, Housekeeping, Food & Beverage (F&B), and Marketing.",
           ],
           bullets: ["Career Goal: Hotel Manager (Hoteldirektor).", "Duration: 3 Years."],
         },
@@ -273,7 +273,7 @@ const data: AusbildungPageData = {
   closing: {
     title: "Ready to Host the World?",
     paragraphs: [
-      "The world of luxury travel and gourmet cuisine is waiting for you. Don't just study hospitality—live it in Germany. Join the Best German Language Institute in Kerala and start your journey today.",
+      "The world of luxury travel and gourmet cuisine is waiting for you. Don't just study hospitality: live it in Germany. Join the Best German Language Institute in Kerala and start your journey today.",
     ],
     contactHeading: "Contact Caspia Overseas Studies:",
     contactLines: [

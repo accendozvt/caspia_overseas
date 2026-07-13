@@ -28,7 +28,7 @@ const data: AusbildungPageData = {
     "Earn €1,100 - €1,400 Monthly Stipend | Zero Tuition Fees | The Smart B.Tech Alternative",
   intro: [
     "Are you a tech enthusiast in Kerala wondering if you really need to spend 4 years and lakhs of rupees on an engineering degree? In Germany, the answer is No.",
-    "The IT Ausbildung (Vocational Training for IT Specialists) is Germany's premier pathway for tech talent. It is a Dual Training Program where you don't pay tuition fees—instead, top German tech companies pay you a monthly salary to learn coding, networking, and system administration.",
+    "The IT Ausbildung (Vocational Training for IT Specialists) is Germany's premier pathway for tech talent. It is a Dual Training Program where you don't pay tuition fees: instead, top German tech companies pay you a monthly salary to learn coding, networking, and system administration.",
     "At Caspia Overseas Studies, recognized as the best German consultancy in Kerala, we specialize in placing students into these high-demand IT roles. From mastering German at our Vyttila campus to securing your contract, we build your bridge to Europe’s Silicon Valley.",
   ],
   heroCta: { label: "Check Eligibility for IT", href: "https://wa.me/919446511115" },

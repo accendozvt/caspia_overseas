@@ -28,7 +28,7 @@ const data: AusbildungPageData = {
     "Earn €1,000 - €1,300 Monthly Stipend | Zero Tuition Fees | No Blocked Account (Conditions Apply)",
   intro: [
     "Germany is the Logistics World Champion. From DHL to DB Schenker, German companies move the world. But they are facing a massive shortage of skilled workers. This is your opportunity.",
-    "In 2026, Logistics Ausbildung in Germany is the smartest career move for students from Kerala. It is a Dual Vocational Training program where you don't pay tuition fees—instead, you get paid to learn. At Caspia Overseas Studies, we are the leaders in placing Indian students into these high-demand roles, providing end-to-end support from our Vyttila campus to your first day in Germany.",
+    "In 2026, Logistics Ausbildung in Germany is the smartest career move for students from Kerala. It is a Dual Vocational Training program where you don't pay tuition fees: instead, you get paid to learn. At Caspia Overseas Studies, we are the leaders in placing Indian students into these high-demand roles, providing end-to-end support from our Vyttila campus to your first day in Germany.",
   ],
   heroCta: { label: "Check Your Eligibility Free", href: "https://wa.me/919446511115" },
   heroImage: {
@@ -56,7 +56,7 @@ const data: AusbildungPageData = {
         {
           title: "2. Guaranteed Job Security",
           paragraphs: [
-            "Germany is Europe's export giant. A qualification as a Fachkraft für Lagerlogistik (Warehouse Specialist) guarantees you a job in almost any city—Hamburg, Frankfurt, or Munich.",
+            "Germany is Europe's export giant. A qualification as a Fachkraft für Lagerlogistik (Warehouse Specialist) guarantees you a job in almost any city: Hamburg, Frankfurt, or Munich.",
           ],
         },
         {

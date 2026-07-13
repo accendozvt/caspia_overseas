@@ -7,7 +7,7 @@ import { ContactBand } from "@/components/ui";
 export const metadata: Metadata = {
   title: "Articles",
   description:
-    "Insights, guides and updates on German language learning, Ausbildung programs, and studying abroad — from Caspia Overseas Studies, Kochi.",
+    "Insights, guides and updates on German language learning, Ausbildung programs, and studying abroad: from Caspia Overseas Studies, Kochi.",
   alternates: { canonical: "/blogs/" },
 };
 

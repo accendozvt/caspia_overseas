@@ -266,7 +266,7 @@ function SectionBlock({
           </div>
         )}
 
-        {/* Bullets — facts as stat cards, else check cards */}
+        {/* Bullets, facts as stat cards, else check cards */}
         {section.bullets && section.bullets.length > 0 && (
           <div
             className={`${section.paragraphs?.length ? "mt-10" : ""} grid gap-4 ${
@@ -306,7 +306,7 @@ function SectionBlock({
           </div>
         )}
 
-        {/* FAQ — 2 columns */}
+        {/* FAQ, 2 columns */}
         {section.faqGroups && section.faqGroups.length > 0 && (
           <div className="space-y-10">
             {section.faqGroups.map((group, gi) => (

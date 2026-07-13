@@ -48,7 +48,7 @@ export default function Footer() {
             className="h-20 w-auto mb-4"
           />
           <p className="text-white/70 text-sm leading-relaxed">
-            Professional language institute &amp; overseas educational consultants —
+            Professional language institute &amp; overseas educational consultants:
             comprehensive training, guidance and placement for your global career.
           </p>
           <div className="flex gap-3 mt-5">

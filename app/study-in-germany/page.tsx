@@ -120,7 +120,7 @@ const data: CountryData = {
       features: [
         {
           title: "1. Profile Evaluation & Expert Guidance",
-          text: "Every student is unique. Our consultants evaluate your academic background and career aspirations to suggest the best possible academic route—whether it's a Master's degree or a specialized Ausbildung program in IT, Hospitality, or Automotive Engineering.",
+          text: "Every student is unique. Our consultants evaluate your academic background and career aspirations to suggest the best possible academic route: whether it's a Master's degree or a specialized Ausbildung program in IT, Hospitality, or Automotive Engineering.",
         },
         {
           title: "2. Application Assistance (SOP & Portfolio)",
@@ -289,7 +289,7 @@ const data: CountryData = {
       heading: "Want to Study in Germany? Choose Caspia Overseas Studies, Kochi.",
       paragraphs: [
         "Your journey to a global career starts here. Whether you are looking for the best German language classes to clear your B2 exam or need a trusted partner to navigate the Nursing Ausbildung process, Caspia is your answer.",
-        "We are the Trusted Education Consultant leading the way in overseas education in Kerala. With our Personalized Support and Career-Focused Approach, we ensure you don't just reach Germany—you thrive there.",
+        "We are the Trusted Education Consultant leading the way in overseas education in Kerala. With our Personalized Support and Career-Focused Approach, we ensure you don't just reach Germany: you thrive there.",
         "Contact Caspia Overseas Studies today and take the first step towards an enriching educational experience in Germany, where potential meets opportunity.",
       ],
       ctas: [{ label: "Connect with Us", href: "https://wa.me/919446511115" }],

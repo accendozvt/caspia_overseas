@@ -44,7 +44,7 @@ per month
 
 per month
 
-However, here is the secret: Very few Indian students recruited through reputable consultancies like Caspia Overseas ever make just the "minimum." Why? Because the most popular sectors—like Nursing, IT, and Engineering—are governed by powerful trade unions (like IG Metall or Verdi) that force employers to pay much higher than the legal minimum.
+However, here is the secret: Very few Indian students recruited through reputable consultancies like Caspia Overseas ever make just the "minimum." Why? Because the most popular sectors, like Nursing, IT, and Engineering, are governed by powerful trade unions (like IG Metall or Verdi) that force employers to pay much higher than the legal minimum.
 
 ## The Top 5 Highest-Paying Ausbildung Programs for 2026
 

@@ -179,7 +179,7 @@ export default function HomePage() {
               </h1>
               <p className="mt-6 text-white/80 md:text-lg max-w-xl leading-relaxed">
                 From Kerala to a specialized nursing role in Berlin, a mechatronics career in
-                Munich, or a seat at a top Technical University — fluency is your first step. We
+                Munich, or a seat at a top Technical University: fluency is your first step. We
                 don&rsquo;t just teach German; we engineer your success.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
@@ -206,7 +206,7 @@ export default function HomePage() {
                 ))}
               </div>
             </div>
-            {/* Portrait — flush to the bottom edge of the hero */}
+            {/* Portrait, flush to the bottom edge of the hero */}
             <div className="hidden lg:block self-stretch min-h-[34rem]">
               <BannerCarousel
                 images={[
@@ -302,7 +302,7 @@ export default function HomePage() {
               <p className="mt-4 text-ink/85 leading-relaxed">
                 Many institutes teach you to memorize. We teach you to communicate. Our
                 &ldquo;Best German Language Class&rdquo; module is designed to tackle the specific
-                challenges Malayali students face, —from pronunciation to complex grammar
+                challenges Malayali students face, from pronunciation to complex grammar
                 structures, ensuring you sound professional and confident in your future German
                 workplace.
               </p>
@@ -318,7 +318,7 @@ export default function HomePage() {
             <div>
               <Image
                 src="/images/2023/03/medium-shot-graduate-student-e1679831439527.jpg"
-                alt="Graduate student — study abroad with Caspia"
+                alt="Graduate student, study abroad with Caspia"
                 width={720}
                 height={480}
                 className="rounded-2xl w-full h-auto object-cover"

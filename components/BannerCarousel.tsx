@@ -30,7 +30,7 @@ export default function BannerCarousel({ images }: { images: string[] }) {
           <Image
             key={src}
             src={src}
-            alt="Caspia Overseas Studies — career programs"
+            alt="Caspia Overseas Studies: career programs"
             fill
             priority={idx === 0}
             sizes="(max-width: 1024px) 60vw, 420px"

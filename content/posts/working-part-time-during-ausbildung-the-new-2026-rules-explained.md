@@ -136,7 +136,7 @@ An Ausbildung is a full-time, 40-hour-a-week commitment. It is mentally exhausti
 
 Our advice? Spend your first 6 months adjusting to the culture, the language, and your primary job. Only take up a part-time job in your second semester once you are comfortable with your routine.
 
-## Frequently Asked Questions (FAQ) — AEO Optimized
+## Frequently Asked Questions (FAQ): AEO Optimized
 
 1. Is it legal to work part-time on an Ausbildung visa?
 

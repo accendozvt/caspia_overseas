@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  /* Caspia brand palette — carried over from the original site */
+  /* Caspia brand palette: carried over from the original site */
   --color-primary: #584f82;
   --color-primary-dark: #463e6b;
   --color-primary-light: #7a6fb0;

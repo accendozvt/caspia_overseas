@@ -104,7 +104,7 @@ Job Security: 100%. Trains will never stop running.
 
 ##### (Fachkraft für Lagerlogistik)
 
-Germany is the export champion of the world. This is not just "moving boxes"—it’s high-tech management using advanced software (SAP).
+Germany is the export champion of the world. This is not just "moving boxes": it’s high-tech management using advanced software (SAP).
 
 1st Year:
 

@@ -122,7 +122,7 @@ export function PageHero({
 /* ---------- FAQ (no-JS accordion) ---------- */
 export type FAQItem = { q: string; a: string };
 
-/** One accordion item — shared by the FAQ grid. */
+/** One accordion item: shared by the FAQ grid. */
 export function FaqRow({ n, item }: { n: number; item: FAQItem }) {
   return (
     <details className="group bg-white rounded-xl shadow-sm ring-1 ring-black/5 open:ring-accent/40 transition-shadow hover:shadow-md">

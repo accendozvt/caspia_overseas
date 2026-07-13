@@ -56,14 +56,14 @@ export default function Header() {
       {/* Main nav */}
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex items-center justify-between h-16 lg:h-20 gap-4">
-          <Link href="/" className="shrink-0" aria-label="Caspia Overseas Studies — Home">
+          <Link href="/" className="shrink-0" aria-label="Caspia Overseas Studies: Home">
             <Image
               src={site.logoSquare}
               alt="Caspia Overseas Studies"
               width={300}
               height={300}
               priority
-              className="h-12 lg:h-16 w-auto"
+              className="h-14 lg:h-20 w-auto"
             />
           </Link>
 

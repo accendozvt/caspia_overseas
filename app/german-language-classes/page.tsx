@@ -79,7 +79,7 @@ const faqItems: FAQItem[] = [
   },
   {
     q: "Why is Caspia called the best German consultancy in Kerala?",
-    a: 'Because we offer a "One-Stop Solution." Most institutes only teach the language. Caspia teaches the language and processes your admission, visa, and flight—all under one roof.',
+    a: 'Because we offer a "One-Stop Solution." Most institutes only teach the language. Caspia teaches the language and processes your admission, visa, and flight: all under one roof.',
   },
   {
     q: "Is there an age limit for learning German?",
@@ -158,7 +158,7 @@ export default function GermanLanguageClassesPage() {
             </h2>
             <div className="mt-6 space-y-4 text-ink/85 leading-relaxed">
               <p>
-                {"In the competitive world of 2026, fluency in German is not just a skill—it is your passport to Europe’s strongest economy. At Caspia Overseas Studies, recognized as the best German language institute in Kerala, we don't just teach you a language; we engineer your future."}
+                {"In the competitive world of 2026, fluency in German is not just a skill: it is your passport to Europe’s strongest economy. At Caspia Overseas Studies, recognized as the best German language institute in Kerala, we don't just teach you a language; we engineer your future."}
               </p>
               <p>
                 {"Whether you are aspiring for Nursing Ausbildung in Germany, seeking a high-paying IT career via the Chancenkarte, or pursuing tuition-free higher education, your journey begins with the best German language classes in the region. Located in the heart of Vyttila, Kochi, with a digital footprint across the state, Caspia is the definitive choice for serious aspirants."}
@@ -220,7 +220,7 @@ export default function GermanLanguageClassesPage() {
                 Specialized B2 Training for Nursing Ausbildung
               </h3>
               <p className="mt-3 text-sm text-ink/80">
-                {"We are the market leaders for Ausbildung Nursing in Germany. German hospitals demand a specific type of language proficiency—Pflegefachsprache (Nursing German). Unlike generic institutes, our B2 modules include medical terminology, patient communication, and hospital documentation protocols, ensuring you are job-ready on Day 1."}
+                {"We are the market leaders for Ausbildung Nursing in Germany. German hospitals demand a specific type of language proficiency: Pflegefachsprache (Nursing German). Unlike generic institutes, our B2 modules include medical terminology, patient communication, and hospital documentation protocols, ensuring you are job-ready on Day 1."}
               </p>
             </div>
             <div className="bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5 hover:shadow-lg transition-shadow">
@@ -343,7 +343,7 @@ export default function GermanLanguageClassesPage() {
             <div className="bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5 hover:shadow-lg transition-shadow">
               <h3 className="font-extrabold text-secondary">Role Plays</h3>
               <p className="mt-3 text-sm text-ink/80">
-                {"We simulate real-life scenarios—opening a bank account in Berlin, talking to a landlord, or handling a medical emergency."}
+                {"We simulate real-life scenarios: opening a bank account in Berlin, talking to a landlord, or handling a medical emergency."}
               </p>
             </div>
             <div className="bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5 hover:shadow-lg transition-shadow">

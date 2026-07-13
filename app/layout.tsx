@@ -12,7 +12,7 @@ const inter = Inter({
   display: "swap",
 });
 
-// DM Sans — the closest open Google Fonts match to Google Sans (geometric, friendly)
+// DM Sans: the closest open Google Fonts match to Google Sans (geometric, friendly)
 const googleSans = DM_Sans({
   variable: "--font-google-sans",
   subsets: ["latin"],
