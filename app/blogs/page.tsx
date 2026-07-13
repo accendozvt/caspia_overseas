@@ -26,8 +26,8 @@ export default function BlogsPage() {
 
   return (
     <>
-      <section className="bg-secondary text-white">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:py-20 text-center">
+      <section className="relative bg-hero bg-hero-shine text-white overflow-hidden">
+        <div className="relative mx-auto max-w-7xl px-4 py-14 md:py-20 text-center">
           <p className="text-xs md:text-sm font-bold uppercase tracking-[0.25em] text-accent mb-4">
             Caspia Blog
           </p>

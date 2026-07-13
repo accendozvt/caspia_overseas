@@ -154,7 +154,7 @@ const data: AusbildungPageData = {
       tone: "dark",
       title: "Step-by-Step Application Process",
       image: {
-        src: "/images/2023/04/aerial-top-view-cargo-ship-with-contrail-smart-icons-ocean-sea-ship-carrying-container-export-from-container-international-port-custom-ocean-concept-freight-shipping-by-ship-service.jpg",
+        src: "/images/2023/04/cargo-ship-container.jpg",
         alt: "Logistics Ausbildung Application Process",
         width: 511,
         height: 1000,
