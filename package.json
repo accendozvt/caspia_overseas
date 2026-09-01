@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/generate-llms-full.js",
     "start": "next start",
     "lint": "eslint",
     "og:dimensions": "node scripts/generate-og-dimensions.js"
