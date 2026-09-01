@@ -472,14 +472,17 @@ export default function CountryPage({ data }: { data: CountryData }) {
     .flatMap((g) => g.items)
     .map((it) => ({ q: it.q, a: it.a }));
 
-  // Alternate white/mist only across non-facts sections so the rhythm stays clean
-  let toneIdx = 0;
-  const toneFor = (s: CountrySection) => {
+  // Alternate white/mist only across non-facts sections so the rhythm stays clean.
+  // Precomputed up front so the alternation carries from sections into
+  // postSections without depending on call order during render.
+  const allSections = [...data.sections, ...(data.postSections ?? [])];
+  const tones = allSections.map((s, i) => {
     if (s.variant === "facts") return "white" as const;
-    const t = toneIdx % 2 === 0 ? ("white" as const) : ("mist" as const);
-    toneIdx += 1;
-    return t;
-  };
+    const nonFactsBefore = allSections
+      .slice(0, i)
+      .filter((prev) => prev.variant !== "facts").length;
+    return nonFactsBefore % 2 === 0 ? ("white" as const) : ("mist" as const);
+  });
 
   return (
     <>
@@ -505,11 +508,15 @@ export default function CountryPage({ data }: { data: CountryData }) {
       />
       <CountryHero data={data} />
       {data.sections.map((section, i) => (
-        <SectionBlock key={i} section={section} tone={toneFor(section)} />
+        <SectionBlock key={i} section={section} tone={tones[i]} />
       ))}
       <CallbackPanel callback={data.callback} enquireHref={data.enquireHref} />
       {data.postSections?.map((section, i) => (
-        <SectionBlock key={i} section={section} tone={toneFor(section)} />
+        <SectionBlock
+          key={i}
+          section={section}
+          tone={tones[data.sections.length + i]}
+        />
       ))}
     </>
   );
