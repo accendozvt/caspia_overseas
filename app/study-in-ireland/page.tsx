@@ -1,20 +1,15 @@
 import type { Metadata } from "next";
 import CountryPage, { type CountryData } from "@/components/country/CountryPage";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "Study in Ireland - Caspia Overseas Studies - No.1 in Kerala",
-  },
+export const metadata: Metadata = pageMetadata({
+  title: "Study in Ireland - Caspia Overseas Studies - No.1 in Kerala",
   description:
     "Study in Ireland with Caspia Overseas Studies, Kochi's premier consultancy, offering expert guidance for your academic journey in this history-rich nation.",
-  alternates: { canonical: "/study-in-ireland/" },
-  openGraph: {
-    title: "Study in Ireland - Caspia Overseas Studies - No.1 in Kerala",
-    description:
-      "Study in Ireland with Caspia Overseas Studies, Kochi's premier consultancy, offering expert guidance for your academic journey in this history-rich nation.",
-    images: ["/images/2023/11/Ireland.png"],
-  },
-};
+  path: "/study-in-ireland/",
+  image: "/images/2023/11/Ireland.png",
+  imageAlt: "Study in Ireland with Caspia Overseas Studies",
+});
 
 const data: CountryData = {
   heroTitle: "Study in Ireland",

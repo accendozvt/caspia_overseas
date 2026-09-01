@@ -3,13 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/posts";
 import { ContactBand } from "@/components/ui";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: { absolute: "Blog: German Language & Ausbildung Guides | Caspia" },
+export const metadata: Metadata = pageMetadata({
+  title: "Blog: German Language & Ausbildung Guides | Caspia",
   description:
     "Insights, guides and updates on German language learning, Ausbildung programs, and studying abroad: from Caspia Overseas Studies, Kochi.",
-  alternates: { canonical: "/blogs/" },
-};
+  path: "/blogs/",
+});
 
 function formatDate(iso: string): string {
   if (!iso) return "";

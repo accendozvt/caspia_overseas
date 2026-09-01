@@ -1,21 +1,14 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/ui";
 import FormEmbed from "@/components/FormEmbed";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: { absolute: "German Nursing Registration - Caspia Overseas Studies" },
+export const metadata: Metadata = pageMetadata({
+  title: "German Nursing Registration | Caspia Overseas Studies",
   description:
-    "Interested in learning German? Look no further than Caspia Overseas Studies, the best institute for German language courses in Kochi. Register Now!!",
-  alternates: { canonical: "/german-nursing-registration/" },
-  openGraph: {
-    title: "German Nursing Registration - Caspia Overseas Studies",
-    description:
-      "Caspia Overseas Studies, the best institute for German language courses in Kochi, Kerala. We are the ideal choice for anyone seeking to learn German and achieve their language learning goals.",
-    images: [
-      "/images/2023/03/group-people-supporters-fans-germany-national-teams-with-painted-flag-face-happy-victory-emotions-fans-emotions-e1679831685718.jpg",
-    ],
-  },
-};
+    "Register for German nursing Ausbildung guidance with Caspia Overseas Studies, Kochi's leading institute for German language courses and career placement.",
+  path: "/german-nursing-registration/",
+});
 
 export default function GermanNursingRegistrationPage() {
   return (

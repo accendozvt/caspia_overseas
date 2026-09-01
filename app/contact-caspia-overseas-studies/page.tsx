@@ -3,13 +3,14 @@ import Image from "next/image";
 import { WhatsAppCTA } from "@/components/ui";
 import FormEmbed from "@/components/FormEmbed";
 import { site } from "@/lib/site";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: { absolute: "Contact - Caspia Overseas Studies - German Language Classes" },
+export const metadata: Metadata = pageMetadata({
+  title: "Contact - Caspia Overseas Studies - German Language Classes",
   description:
     "Contact Caspia Overseas Studies in Vyttila, Kochi for German language classes and Ausbildung guidance. Call, WhatsApp, or visit one of our 5 Kerala branches.",
-  alternates: { canonical: "/contact-caspia-overseas-studies/" },
-};
+  path: "/contact-caspia-overseas-studies/",
+});
 
 const socials = [
   { label: "Facebook", href: site.social.facebook },

@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { SectionHeading, PrimaryCTA } from "@/components/ui";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: { absolute: "IRS Certified Enrolled Agent - Caspia Overseas Studies" },
+export const metadata: Metadata = pageMetadata({
+  title: "IRS Certified Enrolled Agent - Caspia Overseas Studies",
   description:
     "Become an IRS Enrolled Agent with Caspia Overseas Studies in Kochi: master U.S. taxation, prepare federal tax returns, and unlock MNC jobs in tax practice.",
-  alternates: { canonical: "/irs-certified-enrolled-agent-course-in-kochi-kerala/" },
-};
+  path: "/irs-certified-enrolled-agent-course-in-kochi-kerala/",
+});
 
 export default function EnrolledAgentPage() {
   return (

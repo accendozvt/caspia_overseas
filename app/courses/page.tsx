@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHero, SectionHeading, ContactBand } from "@/components/ui";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: { absolute: "German Language & Ausbildung Courses | Caspia" },
+export const metadata: Metadata = pageMetadata({
+  title: "German Language & Ausbildung Courses | Caspia",
   description:
     "Explore German language classes, OET/IELTS prep, and Ausbildung programs in Nursing, IT, Logistics, and more with Caspia Overseas Studies in Kochi, Kerala.",
-  alternates: { canonical: "/courses/" },
-};
+  path: "/courses/",
+});
 
 const courses: { title: string; href?: string }[] = [
   { title: "German Language", href: "/german-language-classes/" },

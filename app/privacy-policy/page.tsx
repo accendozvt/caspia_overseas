@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/ui";
 import { site } from "@/lib/site";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: { absolute: "Privacy Policy & Data Protection | Caspia Overseas" },
+export const metadata: Metadata = pageMetadata({
+  title: "Privacy Policy & Data Protection | Caspia Overseas",
   description:
     "Read the Caspia Overseas Studies privacy policy: what personal information we collect on caspiaedu.com, how it's used, disclosed, and kept secure.",
-  alternates: { canonical: "/privacy-policy/" },
-};
+  path: "/privacy-policy/",
+});
 
 const sections: { heading: string; text: string }[] = [
   {

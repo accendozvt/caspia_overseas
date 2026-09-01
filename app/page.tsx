@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { pageMetadata } from "@/lib/metadata";
 import BannerCarousel from "@/components/BannerCarousel";
 import RotatingWords from "@/components/RotatingWords";
 import {
@@ -14,18 +15,12 @@ import {
 import { getAllPosts } from "@/lib/posts";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "Best German Language Classes in Kerala - Caspia Overseas Studies",
-  },
+export const metadata: Metadata = pageMetadata({
+  title: "Best German Language Classes in Kerala - Caspia Overseas Studies",
   description:
     "Discover the best German language classes in Kerala, offering immersive learning experiences. Master German with Kerala's premier language institution.",
-  alternates: { canonical: "/" },
-  openGraph: {
-    title: "Best German Language Classes in Kerala - Caspia Overseas",
-    images: ["/images/2023/03/IMG-20230326-WA0044.jpg"],
-  },
-};
+  path: "/",
+});
 
 const heroCountries = [
   "GERMANY",

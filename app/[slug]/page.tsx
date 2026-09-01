@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPost, getPostSlugs } from "@/lib/posts";
 import { ContactBand } from "@/components/ui";
 import { site } from "@/lib/site";
+import { pageMetadata } from "@/lib/metadata";
 
 export const dynamicParams = false;
 
@@ -19,19 +20,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const post = getPost(slug);
-  return {
-    title: { absolute: post.seoTitle },
+  return pageMetadata({
+    title: post.seoTitle,
     description: post.description,
-    alternates: { canonical: `/${slug}/` },
-    openGraph: {
-      type: "article",
-      title: post.seoTitle,
-      description: post.description,
-      images: post.ogImage ? [post.ogImage] : undefined,
-      publishedTime: post.date || undefined,
-      modifiedTime: post.modified || undefined,
-    },
-  };
+    path: `/${slug}/`,
+    type: "article",
+    image: post.ogImage || undefined,
+    imageAlt: post.title,
+    publishedTime: post.date || undefined,
+    modifiedTime: post.modified || undefined,
+  });
 }
 
 function formatDate(iso: string): string {

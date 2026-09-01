@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { pageMetadata } from "@/lib/metadata";
 import {
   PageHero,
   SectionHeading,
@@ -9,12 +10,12 @@ import {
   type FAQItem,
 } from "@/components/ui";
 
-export const metadata: Metadata = {
-  title: { absolute: "The Best German Language Classes - Caspia Overseas Studies" },
+export const metadata: Metadata = pageMetadata({
+  title: "Best German Language Classes | Caspia Overseas Studies",
   description:
-    "Caspia Overseas is the No.1 institute for German language classes. Become proficient in German in no time with our expert trainers and comprehensive curriculum.",
-  alternates: { canonical: "/german-language-classes/" },
-};
+    "Caspia Overseas is the No.1 institute for German language classes in Kerala. Become proficient in German with expert trainers and a comprehensive A1-C1 curriculum.",
+  path: "/german-language-classes/",
+});
 
 const faqItems: FAQItem[] = [
   {

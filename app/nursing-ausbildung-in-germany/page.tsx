@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { pageMetadata } from "@/lib/metadata";
 import {
   PageHero,
   SectionHeading,
@@ -10,20 +11,12 @@ import {
   type FAQItem,
 } from "@/components/ui";
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "Nursing Ausbildung in Germany - Pursue Best Rewarding Career",
-  },
+export const metadata: Metadata = pageMetadata({
+  title: "Nursing Ausbildung in Germany | Caspia Overseas Studies",
   description:
-    "Caspia Overseas formerly DirectionNXT is the pioneers in providing German Language Classes in Kochi, Admission Guidance for Nursing Ausbildung in Germany.",
-  alternates: { canonical: "/nursing-ausbildung-in-germany/" },
-  openGraph: {
-    type: "article",
-    title: "Nursing Ausbildung Program - Caspia Overseas - Kochi - Caspia Overseas Studies",
-    description:
-      "Your Gateway to World-Class Education Study Nursing Ausbildung in Germany Nursing Ausbildung in Germany: Your Complete Guide to a Free, Paid Career in 2026 Become a Global Healthcare Professional with Zero Tuition Fees & a Monthly Salary. Are you looking for a secure, high-paying medical career in Europe? Nursing Ausbildung…",
-  },
-};
+    "Caspia Overseas Studies (formerly DirectionNXT) is Kochi's pioneer in German language training and admission guidance for Nursing Ausbildung in Germany.",
+  path: "/nursing-ausbildung-in-germany/",
+});
 
 const faqItems: FAQItem[] = [
   {

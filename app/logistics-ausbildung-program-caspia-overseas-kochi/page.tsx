@@ -3,21 +3,15 @@ import {
   AusbildungProgramPage,
   type AusbildungPageData,
 } from "@/components/ausbildung/AusbildungProgramPage";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "Logistics Ausbildung in Germany | Caspia Overseas",
-  },
+export const metadata: Metadata = pageMetadata({
+  title: "Logistics Ausbildung in Germany | Caspia Overseas",
   description:
     "Join Europe's logistics powerhouse with Germany's Logistics Ausbildung: €1,000-€1,300 monthly stipend, zero tuition fees, real DHL and DB Schenker-level training.",
-  alternates: { canonical: "/logistics-ausbildung-program-caspia-overseas-kochi/" },
-  openGraph: {
-    type: "article",
-    title: "Logistics Ausbildung in Germany | Caspia Overseas",
-    description:
-      "Join Europe's logistics powerhouse with Germany's Logistics Ausbildung: €1,000-€1,300 monthly stipend, zero tuition fees, real DHL and DB Schenker-level training.",
-  },
-};
+  path: "/logistics-ausbildung-program-caspia-overseas-kochi/",
+  type: "article",
+});
 
 const data: AusbildungPageData = {
   heroTitle: "Study Logistics Ausbildung in Germany",

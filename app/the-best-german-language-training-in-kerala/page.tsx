@@ -7,13 +7,14 @@ import {
   FAQJsonLd,
   type FAQItem,
 } from "@/components/ui";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: { absolute: "Best German Institute in Kerala | Caspia Overseas Studies" },
+export const metadata: Metadata = pageMetadata({
+  title: "Best German Institute in Kerala | Caspia Overseas Studies",
   description:
     "Caspia Overseas Studies is Kochi's leading German language institute, offering expert A1-B2 classes and Nursing Ausbildung placement in Germany.",
-  alternates: { canonical: "/the-best-german-language-training-in-kerala/" },
-};
+  path: "/the-best-german-language-training-in-kerala/",
+});
 
 const faqItems: FAQItem[] = [
   {

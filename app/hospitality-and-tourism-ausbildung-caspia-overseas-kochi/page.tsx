@@ -3,21 +3,15 @@ import {
   AusbildungProgramPage,
   type AusbildungPageData,
 } from "@/components/ausbildung/AusbildungProgramPage";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "Hospitality Ausbildung in Germany | Caspia Overseas",
-  },
+export const metadata: Metadata = pageMetadata({
+  title: "Hospitality Ausbildung in Germany | Caspia Overseas",
   description:
     "Launch a global hospitality career with Germany's Hospitality & Tourism Ausbildung: €1,000-€1,300 monthly stipend, zero tuition fees, real hotel management experience.",
-  alternates: { canonical: "/hospitality-and-tourism-ausbildung-caspia-overseas-kochi/" },
-  openGraph: {
-    type: "article",
-    title: "Hospitality Ausbildung in Germany | Caspia Overseas",
-    description:
-      "Launch a global hospitality career with Germany's Hospitality & Tourism Ausbildung: €1,000-€1,300 monthly stipend, zero tuition fees, real hotel management experience.",
-  },
-};
+  path: "/hospitality-and-tourism-ausbildung-caspia-overseas-kochi/",
+  type: "article",
+});
 
 const data: AusbildungPageData = {
   heroTitle: "Study Hospitality and Tourism Ausbildung in Germany",

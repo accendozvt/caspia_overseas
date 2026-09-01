@@ -6,15 +6,14 @@ import {
   PrimaryCTA,
 } from "@/components/ui";
 import FormEmbed from "@/components/FormEmbed";
+import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "Success with Kerala's No.1 German Language Class | Caspia",
-  },
+export const metadata: Metadata = pageMetadata({
+  title: "Success with Kerala's No.1 German Language Class | Caspia",
   description:
-    "Caspia Overseas Studies is the leading institute for German language class & training in Kerala with a range of courses from beginner to advanced levels ",
-  alternates: { canonical: "/success-with-the-best-german-language-class-kerala/" },
-};
+    "Caspia Overseas Studies is the leading institute for German language class and training in Kerala, with a range of courses from beginner to advanced levels.",
+  path: "/success-with-the-best-german-language-class-kerala/",
+});
 
 const whyChoose = [
   {
