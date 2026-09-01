@@ -1,0 +1,10 @@
+# core.autocrlf would otherwise check these out with CRLF endings, which breaks them:
+#
+#   .htaccess  - Apache treats a trailing \r as part of a directive's value, and a
+#                line-continuation backslash followed by \r\n stops continuing the line.
+#   *.sh       - a shell script with CRLF fails to run on Linux ("bad interpreter: ^M").
+#
+# The site is a static export, so public/.htaccess is copied verbatim into out/ and
+# uploaded to the server exactly as it appears in the working tree.
+.htaccess text eol=lf
+*.sh text eol=lf

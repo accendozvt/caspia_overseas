@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Something Went Wrong - Caspia Overseas Studies</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="theme-color" content="#584f82" />
+    <link rel="icon" href="/icon.png" type="image/png" />
+    <!--
+      Served by Apache for 5xx errors (see ErrorDocument in public/.htaccess).
+      Deliberately self-contained: no external CSS, fonts or JS, because the
+      situations that trigger this page are exactly the ones where the rest of
+      the site may not be loading. Colours match the brand tokens in globals.css.
+    -->
+    <style>
+      :root {
+        --primary: #584f82;
+        --secondary: #28204f;
+        --mist: #f2f4f6;
+        --ink: #2c3338;
+        --muted: #6e6e6e;
+        --orange: #c35505;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--mist);
+        color: var(--ink);
+        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        padding: 2rem 1rem;
+      }
+      main { max-width: 34rem; text-align: center; }
+      .code {
+        font-size: 4.5rem;
+        font-weight: 800;
+        line-height: 1;
+        color: rgba(88, 79, 130, 0.25);
+        margin: 0;
+      }
+      h1 {
+        font-size: 1.875rem;
+        font-weight: 800;
+        color: var(--secondary);
+        margin: 1rem 0 0;
+      }
+      p { color: var(--muted); margin: 1rem 0 0; }
+      .actions {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        justify-content: center;
+      }
+      a.btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        border-radius: 999px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #ffffff;
+      }
+      .btn-primary { background: var(--primary); }
+      .btn-orange { background: var(--orange); }
+      a.btn:hover { filter: brightness(1.1); }
+      .meta { margin-top: 2rem; font-size: 0.875rem; }
+      .meta a { color: var(--primary); }
+      @media (max-width: 480px) { .code { font-size: 3.5rem; } h1 { font-size: 1.5rem; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="code">500</p>
+      <h1>Something went wrong</h1>
+      <p>
+        Sorry, the page could not be loaded because of a problem on our end. Please try
+        again in a few moments.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="/">Go to homepage</a>
+        <a class="btn btn-orange" href="tel:+919446511115">Call +91 9446 511 115</a>
+      </div>
+      <p class="meta">
+        Caspia Overseas Studies &middot; Vyttila, Kochi &middot;
+        <a href="mailto:info@caspiaedu.com">info@caspiaedu.com</a>
+      </p>
+    </main>
+  </body>
+</html>
