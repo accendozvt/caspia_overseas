@@ -40,8 +40,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# SEO audit working files (Lighthouse reports, meta audits) - not source content
-/seo-audit/
+# SEO audit working files (Lighthouse JSON, meta audits) - not source content.
+# Ignore the directory's contents but keep the written report under version control.
+/seo-audit/*
+!/seo-audit/SEO-REPORT.md
 
 # Generated responsive WebP variants (scripts/generate-images.js, run as prebuild).
 # Rebuilt from public/images on every build; lib/image-manifest.json IS committed so

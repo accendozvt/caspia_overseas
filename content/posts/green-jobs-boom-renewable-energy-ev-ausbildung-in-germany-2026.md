@@ -200,4 +200,4 @@ The future of the world is green, and Germany is leading the charge. If you want
 
 Join the Best German Consultancy in Kerala and let us guide you from your first German class to your first day on a German tech site.
 
-[BTN/LINK: "DM us "GREEN": Check Eligibility" -> https://wa.me/919446511115]
+[DM us "GREEN": Check Eligibility](https://wa.me/919446511115)

@@ -31,8 +31,55 @@ function webpVariant(src: string, width: number): string {
  * responsive WebP variants the rest of the site uses, with intrinsic width/height so
  * the browser can reserve space before the image loads.
  */
+/**
+ * Body headings are renumbered so they never skip a level. The post template renders
+ * the title as the page's <h1>, so body headings start at 2; several posts jump
+ * straight from ## to ####, which fails the heading-order accessibility audit on 34
+ * pages. Clamping in the renderer fixes every post at once and keeps future ones
+ * correct, without rewriting the Markdown sources.
+ */
+let previousHeadingLevel = 1;
+
 marked.use({
   renderer: {
+    heading({ tokens, depth }) {
+      const level = Math.min(depth, previousHeadingLevel + 1);
+      previousHeadingLevel = level;
+      return `<h${level}>${this.parser.parseInline(tokens)}</h${level}>`;
+    },
+
+    /**
+     * Adds header scopes, and promotes the first column to row headers when the
+     * table's top-left cell is blank. That layout means the first column holds row
+     * labels rather than data, but without <th scope="row"> the cells underneath an
+     * empty <th> have no header at all, which is what the td-has-header audit flags.
+     */
+    table({ header, rows }) {
+      const alignOf = (c: { align: string | null }) =>
+        c.align ? ` style="text-align:${c.align}"` : "";
+      const firstColumnIsLabels = !header[0] || header[0].text.trim() === "";
+
+      const head = header
+        .map((c) => `<th scope="col"${alignOf(c)}>${this.parser.parseInline(c.tokens)}</th>`)
+        .join("");
+
+      const body = rows
+        .map((row) => {
+          const cells = row
+            .map((c, i) => {
+              const isRowHeader = firstColumnIsLabels && i === 0;
+              const tag = isRowHeader ? "th" : "td";
+              const scope = isRowHeader ? ' scope="row"' : "";
+              return `<${tag}${scope}${alignOf(c)}>${this.parser.parseInline(c.tokens)}</${tag}>`;
+            })
+            .join("");
+          return `<tr>${cells}</tr>`;
+        })
+        .join("");
+
+      return `<table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+    },
+
     image({ href, title, text }) {
       const entry = IMAGES[href];
       const alt = escapeAttr(text || "");
@@ -83,6 +130,9 @@ export function getPostSlugs(): string[] {
 export function getPost(slug: string): Post {
   const raw = fs.readFileSync(path.join(postsDir, slug + ".md"), "utf8");
   const { data, content } = matter(raw);
+  // Reset before each post: the heading renderer carries state across calls, and the
+  // page <h1> is the post title, so body headings restart from level 2.
+  previousHeadingLevel = 1;
   const html = marked.parse(content, { async: false }) as string;
   const text = content
     .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
