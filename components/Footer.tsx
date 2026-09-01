@@ -45,6 +45,7 @@ export default function Footer() {
             alt="Caspia Overseas Studies"
             width={90}
             height={90}
+            sizes="80px"
             className="h-20 w-auto mb-4"
           />
           <p className="text-white/70 text-sm leading-relaxed">

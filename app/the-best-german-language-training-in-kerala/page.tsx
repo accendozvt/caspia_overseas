@@ -139,6 +139,7 @@ export default function AboutPage() {
               alt="Caspia Student Success Stories"
               width={733}
               height={959}
+              sizes="(max-width: 1024px) 50vw, 25vw"
               className="rounded-3xl w-full h-auto"
             />
             <Image
@@ -146,6 +147,7 @@ export default function AboutPage() {
               alt="Student Studying German in Kerala"
               width={385}
               height={960}
+              sizes="(max-width: 1024px) 50vw, 25vw"
               className="rounded-3xl w-full h-auto"
             />
           </div>
@@ -320,6 +322,7 @@ export default function AboutPage() {
               alt="Nursing Ausbildung Germany Process"
               width={1072}
               height={1574}
+              sizes="448px"
               className="rounded-3xl w-full max-w-md mx-auto h-auto ring-4 ring-white/10"
             />
           </div>
@@ -391,6 +394,7 @@ export default function AboutPage() {
               alt="Caspia Office and Team"
               width={1024}
               height={1024}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="rounded-3xl w-full h-auto"
             />
           </div>

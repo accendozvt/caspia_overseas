@@ -9,10 +9,24 @@ import Image from "next/image";
  */
 export default function BannerCarousel({ images }: { images: string[] }) {
   const [i, setI] = useState(0);
+  // Only the first slide is mounted for the initial paint. Mounting all four made the
+  // browser fetch every banner before the hero had even settled, which is wasted
+  // bandwidth on the LCP path - none of the others are visible for at least 4.5s.
+  // The rest are mounted shortly after load, well before the first rotation.
+  const [showAll, setShowAll] = useState(false);
+
   useEffect(() => {
+    const t = setTimeout(() => setShowAll(true), 1200);
+    return () => clearTimeout(t);
+  }, []);
+
+  useEffect(() => {
+    if (!showAll) return;
     const t = setInterval(() => setI((v) => (v + 1) % images.length), 4500);
     return () => clearInterval(t);
-  }, [images.length]);
+  }, [showAll, images.length]);
+
+  const mounted = showAll ? images : images.slice(0, 1);
 
   return (
     <div className="relative flex justify-center items-end h-full">
@@ -26,7 +40,7 @@ export default function BannerCarousel({ images }: { images: string[] }) {
         aria-hidden
       />
       <div className="relative w-full max-w-[26rem] aspect-[768/1128]">
-        {images.map((src, idx) => (
+        {mounted.map((src, idx) => (
           <Image
             key={src}
             src={src}

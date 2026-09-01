@@ -103,6 +103,7 @@ export default function SuccessGermanClassPage() {
               alt="The Best German Language Classes in Kerala"
               width={1007}
               height={640}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="rounded-3xl w-full h-auto"
             />
           </div>
@@ -185,6 +186,7 @@ export default function SuccessGermanClassPage() {
               alt="Study in Germany"
               width={500}
               height={333}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="rounded-3xl w-full h-auto"
             />
           </div>

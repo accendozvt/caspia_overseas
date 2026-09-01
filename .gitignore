@@ -42,3 +42,8 @@ next-env.d.ts
 
 # SEO audit working files (Lighthouse reports, meta audits) - not source content
 /seo-audit/
+
+# Generated responsive WebP variants (scripts/generate-images.js, run as prebuild).
+# Rebuilt from public/images on every build; lib/image-manifest.json IS committed so
+# type-checking works without running the generator first.
+/public/_img/

@@ -14,11 +14,15 @@ const inter = Inter({
   display: "swap",
 });
 
-// DM Sans: the closest open Google Fonts match to Google Sans (geometric, friendly)
+// DM Sans: the closest open Google Fonts match to Google Sans (geometric, friendly).
+// Only 700/800 are loaded: this family is applied solely to h1-h6 (see globals.css),
+// and every heading on the site resolves to font-bold or font-extrabold - including
+// Markdown headings, which .prose-caspia styles as font-bold. Shipping 400/500/600
+// meant three font files that were downloaded but never rendered.
 const googleSans = DM_Sans({
   variable: "--font-google-sans",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["700", "800"],
   display: "swap",
 });
 

@@ -1,0 +1,824 @@
+{
+  "/images/2020/02/Blog-Engineering-2-e1672680134300.jpg": {
+    "w": 500,
+    "h": 333,
+    "widths": [
+      256,
+      384,
+      500
+    ]
+  },
+  "/images/2020/02/Blog-Nursing-Career-e1672680147297.jpg": {
+    "w": 500,
+    "h": 333,
+    "widths": [
+      256,
+      384,
+      500
+    ]
+  },
+  "/images/2020/03/Blog-Hospitality-e1672680159372.jpg": {
+    "w": 500,
+    "h": 333,
+    "widths": [
+      256,
+      384,
+      500
+    ]
+  },
+  "/images/2020/05/Caspia-Logo-V2-Transp.png": {
+    "w": 1600,
+    "h": 351,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1600
+    ]
+  },
+  "/images/2021/09/Caspia-Squ-White-Transp-2.png": {
+    "w": 1600,
+    "h": 767,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1600
+    ]
+  },
+  "/images/2022/04/Banner-02-e1656866199841.jpg": {
+    "w": 1238,
+    "h": 600,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1238
+    ]
+  },
+  "/images/2023/01/01-e1679202219256.png": {
+    "w": 523,
+    "h": 468,
+    "widths": [
+      256,
+      384,
+      523
+    ]
+  },
+  "/images/2023/01/04.png": {
+    "w": 523,
+    "h": 468,
+    "widths": [
+      256,
+      384,
+      523
+    ]
+  },
+  "/images/2023/01/Caspia-Squ.png": {
+    "w": 1600,
+    "h": 1600,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1600
+    ]
+  },
+  "/images/2023/03/Caspia-Girl-2-e1679900203401.png": {
+    "w": 385,
+    "h": 960,
+    "widths": [
+      256,
+      384,
+      385
+    ]
+  },
+  "/images/2023/03/IMG-20230326-WA0044.jpg": {
+    "w": 1280,
+    "h": 720,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1280
+    ]
+  },
+  "/images/2023/03/education-learning-germany-schooling-europe-deutschland-deutsche-flag-schoolgirl-hold.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/graduation-cap-pile-books-with-copy-space.jpg": {
+    "w": 1000,
+    "h": 750,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/group-happy-young-students-university.jpg": {
+    "w": 1000,
+    "h": 668,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/group-students-happy-be-back-university.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/happy-cute-brunette-caucasian-grad-girl-is-smiling-blurred-class-mates-are.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/learn-german-language-online-education-concept.jpg": {
+    "w": 1000,
+    "h": 702,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/lillte-kid-playing-with-tetris-wood-puzzle-mother-teacher-help-homeshooling-learning-community-montessori-school.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/medical-doctors-conference.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/medium-shot-graduate-student-e1679831439527.jpg": {
+    "w": 500,
+    "h": 331,
+    "widths": [
+      256,
+      384,
+      500
+    ]
+  },
+  "/images/2023/03/montage-children-having-fun-with-their-parents.jpg": {
+    "w": 1000,
+    "h": 750,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/physiotherapist-treatment.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/successful-medical-team.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/thumbs-up-old-man-who-sits-wheelchair.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/03/woman-school-psychologist-talking-helping-student-teenage-male.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/04/Layer-3-e1680957652753.png": {
+    "w": 733,
+    "h": 959,
+    "widths": [
+      256,
+      384,
+      640,
+      733
+    ]
+  },
+  "/images/2023/04/cargo-ship-container.jpg": {
+    "w": 511,
+    "h": 1000,
+    "widths": [
+      256,
+      384,
+      511
+    ]
+  },
+  "/images/2023/04/engineer-inspecting-apprentices-their-workstations.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/04/man-using-digital-tablet-with-global-network-connection-technology-hologram.jpg": {
+    "w": 1000,
+    "h": 545,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/04/managers-visiting-storage-center-discussing-about-distribution-goals-year.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/04/open-your-mind-world-codebreaking-portrait-focused-young-programmer-working-his-computer-office-during-night.jpg": {
+    "w": 698,
+    "h": 1000,
+    "widths": [
+      256,
+      384,
+      640,
+      698
+    ]
+  },
+  "/images/2023/04/people-walking-past-brandenburg-gate-berlin-Copy.jpg": {
+    "w": 1072,
+    "h": 715,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1072
+    ]
+  },
+  "/images/2023/04/picture-guests-getting-key-card-hotel.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/04/robots-car-plant.jpg": {
+    "w": 667,
+    "h": 1000,
+    "widths": [
+      256,
+      384,
+      640,
+      667
+    ]
+  },
+  "/images/2023/04/travel-concept-with-baggage.jpg": {
+    "w": 1000,
+    "h": 752,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/05/medical-worker-operating-room-trying-use-syringe-looking-serious.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/07/29632329_phone_calculator_1-1024x871.png": {
+    "w": 1024,
+    "h": 871,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1024
+    ]
+  },
+  "/images/2023/07/29632329_phone_calculator_1.png": {
+    "w": 1600,
+    "h": 1361,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1600
+    ]
+  },
+  "/images/2023/07/Layer-36-coply.jpg": {
+    "w": 960,
+    "h": 894,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      960
+    ]
+  },
+  "/images/2023/07/businesspeople-working-as-team-with-laptop.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/07/group-three-modern-architects-1.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2023/11/19528011_1-768x468.jpg": {
+    "w": 768,
+    "h": 468,
+    "widths": [
+      256,
+      384,
+      640,
+      768
+    ]
+  },
+  "/images/2023/11/25150989_flag_20-768x385.jpg": {
+    "w": 768,
+    "h": 385,
+    "widths": [
+      256,
+      384,
+      640,
+      768
+    ]
+  },
+  "/images/2023/11/2922502_27116-scaled-e1700221414254.jpg": {
+    "w": 500,
+    "h": 264,
+    "widths": [
+      256,
+      384,
+      500
+    ]
+  },
+  "/images/2023/11/5701.jpg": {
+    "w": 1600,
+    "h": 1066,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1600
+    ]
+  },
+  "/images/2023/11/Australia-1024x651.png": {
+    "w": 1024,
+    "h": 651,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1024
+    ]
+  },
+  "/images/2023/11/Australia.png": {
+    "w": 1259,
+    "h": 800,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1259
+    ]
+  },
+  "/images/2023/11/Banner-01-scaled-1.png": {
+    "w": 1007,
+    "h": 640,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1007
+    ]
+  },
+  "/images/2023/11/Canada.png": {
+    "w": 1007,
+    "h": 640,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1007
+    ]
+  },
+  "/images/2023/11/France-2.png": {
+    "w": 1007,
+    "h": 640,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1007
+    ]
+  },
+  "/images/2023/11/Germany.png": {
+    "w": 1007,
+    "h": 640,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1007
+    ]
+  },
+  "/images/2023/11/Ireland.png": {
+    "w": 1007,
+    "h": 640,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1007
+    ]
+  },
+  "/images/2023/11/USA.png": {
+    "w": 1007,
+    "h": 640,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1007
+    ]
+  },
+  "/images/2023/11/american-flag-united-states-america-768x404.jpg": {
+    "w": 768,
+    "h": 404,
+    "widths": [
+      256,
+      384,
+      640,
+      768
+    ]
+  },
+  "/images/2023/11/flag-germany-germany-state-symbol-germany-flag-e1700221259996.jpg": {
+    "w": 500,
+    "h": 333,
+    "widths": [
+      256,
+      384,
+      500
+    ]
+  },
+  "/images/2023/11/flag_of_canada.jpg": {
+    "w": 1600,
+    "h": 1000,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1600
+    ]
+  },
+  "/images/2023/11/nivelles.jpg": {
+    "w": 1600,
+    "h": 844,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1600
+    ]
+  },
+  "/images/2025/01/118.jpg": {
+    "w": 1000,
+    "h": 666,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2025/01/2922494_27108-scaled.jpg": {
+    "w": 1600,
+    "h": 844,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1600
+    ]
+  },
+  "/images/2025/01/2922505_27119-scaled.jpg": {
+    "w": 1600,
+    "h": 844,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1600
+    ]
+  },
+  "/images/2025/01/4025.jpg": {
+    "w": 1000,
+    "h": 667,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2025/01/5533.jpg": {
+    "w": 1000,
+    "h": 563,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1000
+    ]
+  },
+  "/images/2025/01/Asset-1@2x.png": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1600
+    ]
+  },
+  "/images/2025/01/Finland-1024x651.png": {
+    "w": 1024,
+    "h": 651,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1024
+    ]
+  },
+  "/images/2025/01/Finland.png": {
+    "w": 1259,
+    "h": 800,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1259
+    ]
+  },
+  "/images/2025/01/Malta-1024x651.png": {
+    "w": 1024,
+    "h": 651,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1024
+    ]
+  },
+  "/images/2025/01/Malta.png": {
+    "w": 1259,
+    "h": 800,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1259
+    ]
+  },
+  "/images/2025/01/New-Zealand-1024x651.png": {
+    "w": 1024,
+    "h": 651,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1024
+    ]
+  },
+  "/images/2025/01/New-Zealand.png": {
+    "w": 1259,
+    "h": 800,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1080,
+      1259
+    ]
+  },
+  "/images/2025/01/smiling-young-indian-doctor-woman-uniform-posing-white-background-e1737275973288.png": {
+    "w": 830,
+    "h": 1203,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      830
+    ]
+  },
+  "/images/2025/01/venezuelan-man-sitting-floor-pointing-with-index-finger-great-idea-e1737275289130.png": {
+    "w": 907,
+    "h": 1000,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      907
+    ]
+  },
+  "/images/2026/01/Banner-01-1-768x1128.png": {
+    "w": 768,
+    "h": 1128,
+    "widths": [
+      256,
+      384,
+      640,
+      768
+    ]
+  },
+  "/images/2026/01/Banner-02-1-768x1128.png": {
+    "w": 768,
+    "h": 1128,
+    "widths": [
+      256,
+      384,
+      640,
+      768
+    ]
+  },
+  "/images/2026/01/Banner-03-768x1128.png": {
+    "w": 768,
+    "h": 1128,
+    "widths": [
+      256,
+      384,
+      640,
+      768
+    ]
+  },
+  "/images/2026/01/Banner-03.png": {
+    "w": 1072,
+    "h": 1574,
+    "widths": [
+      256,
+      384,
+      640,
+      828,
+      1072
+    ]
+  },
+  "/images/2026/01/Banner-04-768x1128.png": {
+    "w": 768,
+    "h": 1128,
+    "widths": [
+      256,
+      384,
+      640,
+      768
+    ]
+  }
+}

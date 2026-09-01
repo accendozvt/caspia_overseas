@@ -346,6 +346,7 @@ function SectionBlock({
               alt={section.image.alt}
               width={section.image.width}
               height={section.image.height}
+              sizes="(max-width: 896px) 100vw, 896px"
               className="w-full h-auto rounded-3xl shadow-lg ring-1 ring-black/5"
             />
           </figure>
@@ -413,6 +414,7 @@ function CountryHero({ data }: { data: CountryData }) {
             width={data.heroImage.width}
             height={data.heroImage.height}
             priority
+            sizes="(max-width: 1024px) 100vw, 1024px"
             className="w-full h-auto rounded-3xl shadow-2xl ring-1 ring-black/10"
           />
         </div>

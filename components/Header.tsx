@@ -63,6 +63,9 @@ export default function Header() {
               width={300}
               height={300}
               priority
+              // Renders at 56px tall (80px on lg). Without `sizes` the 1x/2x srcset is
+              // derived from width={300} and a 640w variant is fetched on every page.
+              sizes="80px"
               className="h-14 lg:h-20 w-auto"
             />
           </Link>

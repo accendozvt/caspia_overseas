@@ -228,6 +228,7 @@ export default function HomePage() {
               alt="best german language classes"
               width={768}
               height={685}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="rounded-3xl w-full h-auto"
             />
           </div>
@@ -319,6 +320,7 @@ export default function HomePage() {
                 alt="Graduate student, study abroad with Caspia"
                 width={720}
                 height={480}
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="rounded-2xl w-full h-auto object-cover"
               />
             </div>
@@ -484,6 +486,7 @@ export default function HomePage() {
               alt="German Nursing Program students at Caspia"
               width={720}
               height={520}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="rounded-3xl w-full h-auto object-cover ring-4 ring-white/10"
             />
           </div>
@@ -666,6 +669,7 @@ export default function HomePage() {
                       src={p.ogImage}
                       alt={p.title}
                       fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>

@@ -62,6 +62,7 @@ export default function EnrolledAgentPage() {
               alt="IRS Certified Enrolled Agent Course in Kerala"
               width={960}
               height={894}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="rounded-3xl w-full h-auto ring-4 ring-white/10"
             />
           </div>
@@ -120,6 +121,7 @@ export default function EnrolledAgentPage() {
               alt="IRS Certified Enrolled Agent Course in Kerala"
               width={1000}
               height={667}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="rounded-3xl w-full h-auto"
             />
           </div>
@@ -198,6 +200,7 @@ export default function EnrolledAgentPage() {
               alt="IRS Certified Enrolled Agent Course in Kerala"
               width={1024}
               height={871}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="rounded-3xl w-full h-auto"
             />
             <Image
@@ -205,6 +208,7 @@ export default function EnrolledAgentPage() {
               alt="IRS Certified Enrolled Agent Course in Kerala"
               width={1000}
               height={667}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="rounded-3xl w-full h-auto"
             />
           </div>

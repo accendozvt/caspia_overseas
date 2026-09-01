@@ -200,6 +200,7 @@ export default function GermanLanguageClassesPage() {
               alt="German Language Classes in Kochi Kerala"
               width={1024}
               height={1024}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="rounded-3xl w-full h-auto"
             />
           </div>
@@ -352,6 +353,7 @@ export default function GermanLanguageClassesPage() {
               alt="Nursing Ausbildung Germany Students"
               width={1600}
               height={1600}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="rounded-3xl w-full h-auto ring-4 ring-white/10"
             />
           </div>

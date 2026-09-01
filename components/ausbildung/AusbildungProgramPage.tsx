@@ -316,6 +316,7 @@ function RenderCareer({ s }: { s: CareerSection }) {
                 alt={s.image.alt}
                 width={s.image.width}
                 height={s.image.height}
+                sizes="448px"
                 className="rounded-3xl w-full h-auto object-cover max-w-md mx-auto"
               />
             </div>
@@ -409,6 +410,7 @@ function RenderSteps({ s }: { s: StepsSection }) {
                 alt={s.image.alt}
                 width={s.image.width}
                 height={s.image.height}
+                sizes="448px"
                 className={`rounded-3xl w-full h-auto object-cover max-w-md mx-auto ${
                   dark ? "ring-4 ring-white/10" : ""
                 }`}
@@ -488,6 +490,7 @@ export function AusbildungProgramPage({ data }: { data: AusbildungPageData }) {
               alt={data.heroImage.alt}
               width={data.heroImage.width}
               height={data.heroImage.height}
+              sizes="512px"
               className="rounded-3xl w-full h-auto object-cover max-w-lg mx-auto shadow-lg"
             />
           </div>
@@ -545,6 +548,7 @@ export function AusbildungProgramPage({ data }: { data: AusbildungPageData }) {
             alt={data.footImage.alt}
             width={data.footImage.width}
             height={data.footImage.height}
+            sizes="384px"
             className="w-full max-w-sm h-auto"
           />
         </div>

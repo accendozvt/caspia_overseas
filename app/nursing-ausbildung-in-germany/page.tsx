@@ -259,6 +259,7 @@ export default function NursingAusbildungPage() {
               alt="Indian Nursing Student for Ausbildung in Germany"
               width={830}
               height={1203}
+              sizes="384px"
               className="rounded-3xl w-full h-auto object-cover max-w-sm mx-auto"
             />
           </div>
@@ -431,6 +432,7 @@ export default function NursingAusbildungPage() {
               alt="Career Path for Nurses in Germany"
               width={1024}
               height={1024}
+              sizes="448px"
               className="rounded-3xl w-full h-auto object-cover max-w-md mx-auto"
             />
           </div>
@@ -514,6 +516,7 @@ export default function NursingAusbildungPage() {
                 alt="Caspia Overseas Application Process"
                 width={1072}
                 height={1574}
+                sizes="384px"
                 className="rounded-3xl w-full h-auto object-cover max-w-sm mx-auto shadow-lg"
               />
             </div>
@@ -588,6 +591,7 @@ export default function NursingAusbildungPage() {
             alt="Overseas Consultancy and Study Abroad in Kochi"
             width={733}
             height={959}
+            sizes="384px"
             className="w-full max-w-sm h-auto"
           />
         </div>

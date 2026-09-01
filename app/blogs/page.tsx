@@ -63,6 +63,10 @@ export default function BlogsPage() {
                   src={featured.ogImage}
                   alt={featured.title}
                   fill
+                  // This is the page's LCP element. Without `priority` it was lazy-loaded,
+                  // which pushed mobile LCP out to 3.9s.
+                  priority
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -97,6 +101,7 @@ export default function BlogsPage() {
                     src={p.ogImage}
                     alt={p.title}
                     fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>

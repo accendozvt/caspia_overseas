@@ -137,6 +137,7 @@ export default function ContactPage() {
               alt="Overseas Consultancy and Study Abroad in Kochi"
               width={733}
               height={959}
+              sizes="448px"
               className="mt-8 rounded-3xl w-full max-w-md h-auto"
             />
           </div>
