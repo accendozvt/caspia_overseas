@@ -1,6 +1,6 @@
 ---
-title: "Ausbildung vs. Traditional Study Abroad: A Real Cost Comparison for Kerala Families"
-seoTitle: "Ausbildung vs Study Abroad Cost | Germany vs UK Canada Australia"
+title: "Ausbildung vs Study Abroad Cost Comparison | Caspia"
+seoTitle: "Ausbildung vs Study Abroad Cost Comparison | Caspia"
 description: "A clear Ausbildung vs study abroad cost breakdown for Kerala families: see how Germany vs UK Canada Australia compare on fees, loans, and income."
 ogImage: ""
 date: "2026-07-15T10:15:00+05:30"

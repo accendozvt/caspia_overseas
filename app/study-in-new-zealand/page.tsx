@@ -3,15 +3,15 @@ import CountryPage, { type CountryData } from "@/components/country/CountryPage"
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Study in New Zealand - Caspia Overseas Studies - No.1 in Kerala",
+    absolute: "Study in New Zealand | Caspia Overseas Studies",
   },
   description:
-    "Your Gateway to World-Class Education Register Today Enquire Now Why This is the Perfect Time to Study in New Zealand New Zealand is renowned for its world-class education system, globally recognized qualifications, and exceptional quality of life. This island nation is not only home to breathtaking natural landscapes and vibrant…",
+    "Study in New Zealand with Caspia Overseas Studies: world-class education, globally recognized qualifications, and an exceptional quality of life await.",
   alternates: { canonical: "/study-in-new-zealand/" },
   openGraph: {
-    title: "Study in New Zealand - Caspia Overseas Studies - No.1 in Kerala",
+    title: "Study in New Zealand | Caspia Overseas Studies",
     description:
-      "Your Gateway to World-Class Education Register Today Enquire Now Why This is the Perfect Time to Study in New Zealand New Zealand is renowned for its world-class education system, globally recognized qualifications, and exceptional quality of life. This island nation is not only home to breathtaking natural landscapes and vibrant…",
+      "Study in New Zealand with Caspia Overseas Studies: world-class education, globally recognized qualifications, and an exceptional quality of life await.",
     images: ["/images/2025/01/New-Zealand.png"],
   },
 };

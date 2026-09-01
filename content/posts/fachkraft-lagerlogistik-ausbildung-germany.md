@@ -1,6 +1,6 @@
 ---
-title: "Fachkraft für Lagerlogistik: Logistics Ausbildung in Germany"
-seoTitle: "Logistics Ausbildung Germany | Fachkraft für Lagerlogistik Guide"
+title: "Fachkraft für Lagerlogistik Ausbildung | Caspia Overseas"
+seoTitle: "Fachkraft für Lagerlogistik Ausbildung | Caspia Overseas"
 description: "Explore Logistics Ausbildung Germany as a Fachkraft für Lagerlogistik: duration, pay, entry rules, and why Kerala students are a strong fit for this path."
 ogImage: ""
 date: "2026-05-18T10:15:00+05:30"

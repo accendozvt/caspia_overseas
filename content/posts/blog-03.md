@@ -1,7 +1,7 @@
 ---
-title: "How to Build a Successful Career in Engineering?"
-seoTitle: "How to Build a Successful Career in Engineering? - Caspia Overseas Studies"
-description: "Dolor from tellus in libero semper, et cursus magna semper amet magna dolor."
+title: "Career in Engineering: Streams & Colleges | Caspia Overseas"
+seoTitle: "Career in Engineering: Streams & Colleges | Caspia Overseas"
+description: "Discover top engineering streams like Computer Science, AI & ML, and Civil, plus admission guidance to leading colleges such as M.S. Ramaiah and R.V. College."
 ogImage: "/images/2020/02/Blog-Engineering-2-e1672680134300.jpg"
 date: "2020-02-18T05:36:17+05:30"
 modified: "2022-04-25T16:58:13+05:30"

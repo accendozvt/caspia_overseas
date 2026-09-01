@@ -1,7 +1,7 @@
 ---
-title: "Higher Education Opportunities in Germany"
-seoTitle: "Higher Education Opportunities in Germany - Caspia Overseas Studies"
-description: "Higher Education in Germany At the tertiary level, Germany offers a wide range of higher education opportunities, including universities, technical universities, and vocational schools. The country's universities are highly regarded, with many programs ranking among the best in the world. German universities offer both undergraduate and graduate degrees in a…"
+title: "Higher Education Opportunities in Germany | Caspia Overseas"
+seoTitle: "Higher Education Opportunities in Germany | Caspia Overseas"
+description: "Explore Germany's higher education landscape — research universities, technical universities, vocational Berufsschulen, and the dual education system explained."
 ogImage: "/images/2023/03/happy-cute-brunette-caucasian-grad-girl-is-smiling-blurred-class-mates-are.jpg"
 date: "2023-03-26T17:55:47+05:30"
 modified: "2023-04-15T08:58:05+05:30"

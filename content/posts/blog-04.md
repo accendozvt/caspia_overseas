@@ -1,7 +1,7 @@
 ---
-title: "Benefits of Pursuing a Career in Nursing"
-seoTitle: "Benefits of Pursuing a Career in Nursing - Caspia Overseas Studies"
-description: "Vivamus sagittis - sed tellus in libero semper, et cursus magna sempe nec ultricies augue."
+title: "Benefits of a Nursing Career | Caspia Overseas Studies"
+seoTitle: "Benefits of a Nursing Career | Caspia Overseas Studies"
+description: "Explore nursing career paths in India and abroad, from government hospitals to global opportunities via OET, HAAD, and CRNE exams, in demand since COVID-19."
 ogImage: "/images/2020/02/Blog-Nursing-Career-e1672680147297.jpg"
 date: "2020-02-16T11:14:00+05:30"
 modified: "2023-04-02T16:36:41+05:30"

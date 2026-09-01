@@ -1,7 +1,7 @@
 ---
 title: "How NORKA and the Kerala Government Are Supporting Germany-Bound Students"
 seoTitle: "NORKA Kerala Support for Germany Students | Complete Guide"
-description: "Discover how NORKA Kerala and state schemes help Germany bound students with language training, orientation, and welfare support."
+description: "Discover how NORKA Kerala and state schemes support Germany-bound students with NIFL German training, pre-departure orientation, and welfare safety nets."
 ogImage: ""
 date: "2026-07-13T18:00:00+05:30"
 modified: "2026-07-13T18:00:00+05:30"

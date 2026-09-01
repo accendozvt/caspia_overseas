@@ -6,17 +6,16 @@ import {
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Logistics Ausbildung Program - Caspia Overseas - Kochi - Caspia Overseas Studies",
+    absolute: "Logistics Ausbildung in Germany | Caspia Overseas",
   },
   description:
-    "Your Gateway to World-Class Education Study Logistics Ausbildung in Germany Logistics Ausbildung in Germany: Your Paid Ticket to Europe's Supply Chain Hub (2026) Earn €1,000 - €1,300 Monthly Stipend | Zero Tuition Fees | No Blocked Account (Conditions Apply) Germany is the Logistics World Champion. From DHL to DB Schenker,…",
+    "Join Europe's logistics powerhouse with Germany's Logistics Ausbildung: €1,000-€1,300 monthly stipend, zero tuition fees, real DHL and DB Schenker-level training.",
   alternates: { canonical: "/logistics-ausbildung-program-caspia-overseas-kochi/" },
   openGraph: {
     type: "article",
-    title:
-      "Logistics Ausbildung Program - Caspia Overseas - Kochi - Caspia Overseas Studies",
+    title: "Logistics Ausbildung in Germany | Caspia Overseas",
     description:
-      "Your Gateway to World-Class Education Study Logistics Ausbildung in Germany Logistics Ausbildung in Germany: Your Paid Ticket to Europe's Supply Chain Hub (2026) Earn €1,000 - €1,300 Monthly Stipend | Zero Tuition Fees | No Blocked Account (Conditions Apply) Germany is the Logistics World Champion. From DHL to DB Schenker,…",
+      "Join Europe's logistics powerhouse with Germany's Logistics Ausbildung: €1,000-€1,300 monthly stipend, zero tuition fees, real DHL and DB Schenker-level training.",
   },
 };
 

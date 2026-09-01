@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# SEO audit working files (Lighthouse reports, meta audits) - not source content
+/seo-audit/

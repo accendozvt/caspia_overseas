@@ -5,7 +5,7 @@ import { SectionHeading, PrimaryCTA } from "@/components/ui";
 export const metadata: Metadata = {
   title: { absolute: "IRS Certified Enrolled Agent - Caspia Overseas Studies" },
   description:
-    "MNC jobs with attractive starting package in US taxation MASTER U.S. TAXATION! BECOME AN ENROLLED AGENT Get Ready To File Us Federal Tax Returns. Expand Your Tax Practice To United States Of America An Enrolled Agent is a professional licensed to PREPARE TAX RETURNS & represent taxpayers before the IRS. The…",
+    "Become an IRS Enrolled Agent with Caspia Overseas Studies in Kochi: master U.S. taxation, prepare federal tax returns, and unlock MNC jobs in tax practice.",
   alternates: { canonical: "/irs-certified-enrolled-agent-course-in-kochi-kerala/" },
 };
 

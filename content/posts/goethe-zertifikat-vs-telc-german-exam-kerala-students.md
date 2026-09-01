@@ -1,6 +1,6 @@
 ---
-title: "Goethe-Zertifikat vs telc: Which German Exam Should Kerala Students Choose?"
-seoTitle: "Goethe vs telc Exam | Which German Certificate Is Right for You?"
+title: "Goethe vs telc: Which German Exam Fits You? | Caspia Overseas"
+seoTitle: "Goethe vs telc: Which German Exam Fits You? | Caspia Overseas"
 description: "Confused about Goethe vs telc? Compare format, cost, and visa recognition for the German exam Kerala students actually need before they apply."
 ogImage: ""
 date: "2026-06-08T10:15:00+05:30"

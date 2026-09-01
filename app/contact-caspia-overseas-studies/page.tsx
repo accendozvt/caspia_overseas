@@ -7,7 +7,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: { absolute: "Contact - Caspia Overseas Studies - German Language Classes" },
   description:
-    "Experience the World: Study Abroad with Caspia Overseas Studies - The Best German Language Classes In Kerala",
+    "Contact Caspia Overseas Studies in Vyttila, Kochi for German language classes and Ausbildung guidance. Call, WhatsApp, or visit one of our 5 Kerala branches.",
   alternates: { canonical: "/contact-caspia-overseas-studies/" },
 };
 

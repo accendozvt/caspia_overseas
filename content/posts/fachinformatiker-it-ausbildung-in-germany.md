@@ -1,6 +1,6 @@
 ---
-title: "Fachinformatiker: IT Ausbildung Program in Germany: A Complete 2026 Guide"
-seoTitle: "Fachinformatiker IT Ausbildung in Germany | Caspia Overseas Studies"
+title: "Fachinformatiker IT Ausbildung in Germany | Caspia Overseas"
+seoTitle: "Fachinformatiker IT Ausbildung in Germany | Caspia Overseas"
 description: "Explore the Fachinformatiker IT Ausbildung Germany pathway: specializations, entry rules, IHK exams, stipends, and career outcomes for 2026."
 ogImage: ""
 date: "2026-05-04T10:15:00+05:30"

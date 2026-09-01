@@ -1,7 +1,7 @@
 ---
 title: "Vocational schools in Germany"
 seoTitle: "Vocational schools in Germany - Caspia Overseas Studies"
-description: "Vocational schools, or Berufsschulen Vocational schools, or Berufsschulen, are an integral part of the German education system, offering students hands-on training in a specific trade or profession. These schools provide a practical alternative to traditional academic programs and allow students to gain valuable work experience while earning a degree or…"
+description: "Discover how Germany's vocational schools (Berufsschulen) blend classroom theory with real workplace apprenticeships for affordable, practical training."
 ogImage: "/images/2023/03/group-students-happy-be-back-university.jpg"
 date: "2023-03-26T17:58:17+05:30"
 modified: "2023-04-15T08:57:47+05:30"

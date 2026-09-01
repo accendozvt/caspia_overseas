@@ -6,20 +6,18 @@ import {
 
 export const metadata: Metadata = {
   title: {
-    absolute:
-      "Anesthesia Technical Assistant Ausbildung - Caspia Overseas - Kochi - Caspia Overseas Studies",
+    absolute: "ATA Ausbildung in Germany | Caspia Overseas Studies",
   },
   description:
-    "Your Gateway to World-Class Education Study Anesthesia Technical Assistant Ausbildung in Germany Anesthesia Technical Assistant (ATA) Ausbildung in Germany: Your High-Tech Medical Career (2026) Earn €1,100 - €1,350 Monthly Stipend | Zero Tuition Fees | No NEET Required Are you a Science student in Kerala fascinated by the high-tech world…",
+    "Train as an Anesthesia Technical Assistant in Germany: earn €1,100-€1,350 monthly with zero tuition fees, no NEET required, for Kerala science students.",
   alternates: {
     canonical: "/anesthesia-technical-assistant-ausbildung-caspia-overseas-kochi/",
   },
   openGraph: {
     type: "article",
-    title:
-      "Anesthesia Technical Assistant Ausbildung - Caspia Overseas - Kochi - Caspia Overseas Studies",
+    title: "ATA Ausbildung in Germany | Caspia Overseas Studies",
     description:
-      "Your Gateway to World-Class Education Study Anesthesia Technical Assistant Ausbildung in Germany Anesthesia Technical Assistant (ATA) Ausbildung in Germany: Your High-Tech Medical Career (2026) Earn €1,100 - €1,350 Monthly Stipend | Zero Tuition Fees | No NEET Required Are you a Science student in Kerala fascinated by the high-tech world…",
+      "Train as an Anesthesia Technical Assistant in Germany: earn €1,100-€1,350 monthly with zero tuition fees, no NEET required, for Kerala science students.",
   },
 };
 

@@ -1,7 +1,7 @@
 ---
-title: "Popular Ausbildung Programs in the healthcare and Social Services"
-seoTitle: "Popular Ausbildung Programs in the healthcare and Social Services - Caspia Overseas Studies"
-description: "Popular Ausbildung programs in the Healthcare and Social Services In recent years, the German government has also increased its support for Ausbildung programs by providing funding and incentives for employers who participate in these programs. This includes financial support for the training costs of employees, as well as tax incentives…"
+title: "Healthcare & Social Services Ausbildung | Caspia Overseas"
+seoTitle: "Healthcare & Social Services Ausbildung | Caspia Overseas"
+description: "A look at Germany's most popular healthcare Ausbildung programs, including Medizinischer Fachangestellter, Physiotherapeut, Altenpfleger, and Ergotherapeut."
 ogImage: "/images/2023/03/montage-children-having-fun-with-their-parents.jpg"
 date: "2023-03-26T20:45:40+05:30"
 modified: "2023-04-15T08:51:48+05:30"

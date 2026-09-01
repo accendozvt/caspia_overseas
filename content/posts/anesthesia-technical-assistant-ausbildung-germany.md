@@ -1,6 +1,6 @@
 ---
-title: "Anesthesia Technical Assistant (ATA) Ausbildung in Germany: A Complete Guide"
-seoTitle: "Anesthesia Technical Assistant Ausbildung Germany | ATA Training Guide"
+title: "Anesthesia Technical Assistant Ausbildung in Germany | Caspia"
+seoTitle: "Anesthesia Technical Assistant Ausbildung in Germany | Caspia"
 description: "Explore the Anesthesia Technical Assistant Ausbildung in Germany: how ATA Germany training works, entry rules, stipend, and career scope for Kerala students."
 ogImage: ""
 date: "2026-06-01T10:15:00+05:30"

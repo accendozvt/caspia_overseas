@@ -1,13 +1,11 @@
 ---
-title: "Medizinischer Fachangestellter/-in (Medical Assistant) Ausbildung program in Germany."
-seoTitle: "Medizinischer Fachangestellter/-in (Medical Assistant) Ausbildung program in Germany. - Caspia Overseas Studies"
-description: "Medical Assistant Ausbildung program in Germany The Medizinischer Fachangestellter/-in Ausbildung program is a vocational training program that prepares students to work in a medical setting, providing assistance to physicians and other healthcare professionals. This program typically lasts for three years and combines theoretical instruction in the classroom with practical training…"
+title: "Medizinischer Fachangestellter Ausbildung Germany | Caspia"
+seoTitle: "Medizinischer Fachangestellter Ausbildung Germany | Caspia"
+description: "A 3-year paid Ausbildung program that trains Medizinischer Fachangestellter (medical assistants) in Germany through classroom study and hands-on clinical practice."
 ogImage: "/images/2023/03/medical-doctors-conference.jpg"
 date: "2023-03-26T20:51:33+05:30"
 modified: "2023-04-15T08:57:37+05:30"
 ---
-# Medical Assistant Ausbildung program in Germany
-
 The Medizinischer Fachangestellter/-in Ausbildung program is a vocational training program that prepares students to work in a medical setting, providing assistance to physicians and other healthcare professionals. This program typically lasts for three years and combines theoretical instruction in the classroom with practical training in the workplace.
 
 During the program, students will learn about medical terminology, anatomy, physiology, medical billing, and patient care. They will also gain practical experience in a range of tasks, such as taking medical histories, performing diagnostic tests, and assisting with medical procedures.

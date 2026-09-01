@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -28,10 +28,11 @@ export const metadata: Metadata = {
   },
   description:
     "Discover the best German language classes in Kerala, offering immersive learning experiences. Master German with Kerala's premier language institution.",
+  robots: "index, follow, max-image-preview:large",
   openGraph: {
     type: "website",
     siteName: site.name,
-    locale: "en_US",
+    locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
@@ -39,6 +40,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "./",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#584f82",
 };
 
 const organizationJsonLd = {

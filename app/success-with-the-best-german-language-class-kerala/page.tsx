@@ -9,7 +9,7 @@ import FormEmbed from "@/components/FormEmbed";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Success with No.1 German Language Class in Kerala - Caspia Overseas Studies",
+    absolute: "Success with Kerala's No.1 German Language Class | Caspia",
   },
   description:
     "Caspia Overseas Studies is the leading institute for German language class & training in Kerala with a range of courses from beginner to advanced levels ",

@@ -9,9 +9,9 @@ import {
 } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: { absolute: "Best German Language Institute in Kerala | Caspia Overses" },
+  title: { absolute: "Best German Institute in Kerala | Caspia Overseas Studies" },
   description:
-    "Join Caspia Overseas, the best German language institute in Kochi, Kerala. Expert A1-B2 classes, 100% placement for Nursing Ausbildung in Germany and 2026 visa consultancy.",
+    "Caspia Overseas Studies is Kochi's leading German language institute, offering expert A1-B2 classes and Nursing Ausbildung placement in Germany.",
   alternates: { canonical: "/the-best-german-language-training-in-kerala/" },
 };
 

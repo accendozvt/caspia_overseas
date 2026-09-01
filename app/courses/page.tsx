@@ -3,9 +3,9 @@ import Link from "next/link";
 import { PageHero, SectionHeading, ContactBand } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: { absolute: "Courses - Caspia Overseas Studies" },
+  title: { absolute: "German Language & Ausbildung Courses | Caspia" },
   description:
-    "German Language OET IELTS Engineering & Medical Management Courses Hospitality Management",
+    "Explore German language classes, OET/IELTS prep, and Ausbildung programs in Nursing, IT, Logistics, and more with Caspia Overseas Studies in Kochi, Kerala.",
   alternates: { canonical: "/courses/" },
 };
 

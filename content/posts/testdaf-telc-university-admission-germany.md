@@ -1,6 +1,6 @@
 ---
-title: "TestDaF & telc for German University Admission: What Kerala Students Need to Know"
-seoTitle: "TestDaF & telc for German University Admission | Complete Guide"
+title: "TestDaF & telc University Admission Germany | Caspia Overseas"
+seoTitle: "TestDaF & telc University Admission Germany | Caspia Overseas"
 description: "Confused about TestDaF vs telc for German university admission language requirements? Kerala students get a clear, honest breakdown here."
 ogImage: ""
 date: "2026-06-22T10:15:00+05:30"

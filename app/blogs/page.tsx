@@ -5,7 +5,7 @@ import { getAllPosts } from "@/lib/posts";
 import { ContactBand } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "Articles",
+  title: { absolute: "Blog: German Language & Ausbildung Guides | Caspia" },
   description:
     "Insights, guides and updates on German language learning, Ausbildung programs, and studying abroad: from Caspia Overseas Studies, Kochi.",
   alternates: { canonical: "/blogs/" },

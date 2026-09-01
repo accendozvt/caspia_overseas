@@ -6,18 +6,16 @@ import {
 
 export const metadata: Metadata = {
   title: {
-    absolute:
-      "Information Technology Ausbildung - Caspia Overseas - Kochi - Caspia Overseas Studies",
+    absolute: "IT Ausbildung in Germany | Caspia Overseas Studies",
   },
   description:
-    "Your Gateway to World-Class Education Study Ausbildung in Information Technology in Germany IT Ausbildung in Germany: Launch Your Tech Career with a Monthly Salary (2026) Earn €1,100 - €1,400 Monthly Stipend | Zero Tuition Fees | The Smart B.Tech Alternative Are you a tech enthusiast in Kerala wondering if you…",
+    "Skip the B.Tech debt: Germany's IT Ausbildung pays €1,100-€1,400 monthly with zero tuition fees, launching Kerala tech enthusiasts into a paid German IT career.",
   alternates: { canonical: "/information-technology-ausbildung-caspia-overseas-kochi/" },
   openGraph: {
     type: "article",
-    title:
-      "Information Technology Ausbildung - Caspia Overseas - Kochi - Caspia Overseas Studies",
+    title: "IT Ausbildung in Germany | Caspia Overseas Studies",
     description:
-      "Your Gateway to World-Class Education Study Ausbildung in Information Technology in Germany IT Ausbildung in Germany: Launch Your Tech Career with a Monthly Salary (2026) Earn €1,100 - €1,400 Monthly Stipend | Zero Tuition Fees | The Smart B.Tech Alternative Are you a tech enthusiast in Kerala wondering if you…",
+      "Skip the B.Tech debt: Germany's IT Ausbildung pays €1,100-€1,400 monthly with zero tuition fees, launching Kerala tech enthusiasts into a paid German IT career.",
   },
 };
 

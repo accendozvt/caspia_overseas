@@ -3,9 +3,9 @@ import { PageHero } from "@/components/ui";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: { absolute: "Privacy Policy - Caspia Overseas Studies" },
+  title: { absolute: "Privacy Policy & Data Protection | Caspia Overseas" },
   description:
-    'This Privacy Policy outlines how Caspia Overseas Studies ("Caspia," "we," "us," or "our") collects, uses, and discloses your personal information when you use our website, www.caspiaedu.com (the "Site"), or interact with us in any other way, such as by email or phone.Information We CollectWe collect information that you provide to…',
+    "Read the Caspia Overseas Studies privacy policy: what personal information we collect on caspiaedu.com, how it's used, disclosed, and kept secure.",
   alternates: { canonical: "/privacy-policy/" },
 };
 

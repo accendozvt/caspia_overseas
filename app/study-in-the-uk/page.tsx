@@ -6,12 +6,12 @@ export const metadata: Metadata = {
     absolute: "Study in The UK - Caspia Overseas Studies - No.1 in Kerala",
   },
   description:
-    "Study in the UK, a historic and vibrant island nation comprised of England, Scotland, Wales, and Northern Ireland, with the tailored guidance of Caspia Overseas Studies, Kochi's premier study abroad consultants.",
+    "Study in the UK with Caspia Overseas Studies, Kochi's premier consultants, covering England, Scotland, Wales, and Northern Ireland's top universities.",
   alternates: { canonical: "/study-in-the-uk/" },
   openGraph: {
     title: "Study in The UK - Caspia Overseas Studies - No.1 in Kerala",
     description:
-      "Study in the UK, a historic and vibrant island nation comprised of England, Scotland, Wales, and Northern Ireland, with the tailored guidance of Caspia Overseas Studies, Kochi's premier study abroad consultants.",
+      "Study in the UK with Caspia Overseas Studies, Kochi's premier consultants, covering England, Scotland, Wales, and Northern Ireland's top universities.",
     images: ["/images/2023/11/Banner-01-scaled-1.png"],
   },
 };

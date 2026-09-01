@@ -1,7 +1,7 @@
 ---
-title: "Altenpfleger/-in (Geriatric Nurse) Ausbildung program in Germany"
-seoTitle: "Altenpfleger/-in (Geriatric Nurse) Ausbildung program in Germany - Caspia Overseas Studies"
-description: "Geriatric Nurse Ausbildung program in Germany The Altenpfleger/-in Ausbildung program is a vocational training program that prepares students to provide care to elderly patients in nursing homes or other long-term care settings. This program typically lasts for three years and combines theoretical instruction in the classroom with practical training in…"
+title: "Altenpfleger: Geriatric Nurse Ausbildung in Germany | Caspia"
+seoTitle: "Altenpfleger: Geriatric Nurse Ausbildung in Germany | Caspia"
+description: "Learn how the 3-year Altenpfleger/-in Ausbildung trains students for geriatric nursing in Germany, combining classroom study with paid, hands-on training."
 ogImage: "/images/2023/03/thumbs-up-old-man-who-sits-wheelchair.jpg"
 date: "2023-03-26T20:54:06+05:30"
 modified: "2023-04-15T08:57:34+05:30"

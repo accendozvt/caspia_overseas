@@ -1,7 +1,7 @@
 ---
-title: "Ergotherapeut/-in (Occupational Therapist) Ausbildung program in Germany"
-seoTitle: "Ergotherapeut/-in (Occupational Therapist) Ausbildung program in Germany - Caspia Overseas Studies"
-description: "Occupational Therapist Ausbildung program in Germany. The Ergotherapeut/-in Ausbildung program is a vocational training program that prepares students to help patients regain their ability to perform daily activities after an illness or injury. This program typically lasts for three years and combines theoretical instruction in the classroom with practical training…"
+title: "Ergotherapeut Ausbildung in Germany | Caspia Overseas Studies"
+seoTitle: "Ergotherapeut Ausbildung in Germany | Caspia Overseas Studies"
+description: "Germany's 3-year Ergotherapeut/-in Ausbildung trains occupational therapists through paid, hands-on rehab work alongside classroom study in anatomy and patient care."
 ogImage: "/images/2023/03/woman-school-psychologist-talking-helping-student-teenage-male.jpg"
 date: "2023-03-26T20:55:21+05:30"
 modified: "2023-04-15T08:57:30+05:30"

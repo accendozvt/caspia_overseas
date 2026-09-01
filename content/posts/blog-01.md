@@ -1,7 +1,7 @@
 ---
-title: "Best Guidance for Hospitality and Hotel Management Career"
-seoTitle: "Best Guidance for Hospitality and Hotel Management Career - Caspia Overseas Studies"
-description: "Suspendisse potenti. In eleifend quam. Mauris id scelerisque dui, placerat pretium nulla."
+title: "Hospitality and Hotel Management Careers | Caspia Overseas"
+seoTitle: "Hospitality and Hotel Management Careers | Caspia Overseas"
+description: "A practical guide to building a career in hotel management and hospitality, covering front office, housekeeping, catering roles, and degree or diploma options."
 ogImage: "/images/2020/03/Blog-Hospitality-e1672680159372.jpg"
 date: "2020-03-04T12:56:39+05:30"
 modified: "2022-04-25T16:50:27+05:30"

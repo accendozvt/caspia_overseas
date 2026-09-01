@@ -1,7 +1,7 @@
 ---
-title: "Nursing Ausbildung in Germany - A Guide for Starters"
-seoTitle: "Nursing Ausbildung in Germany - A Guide for Starters - Caspia Overseas Studies"
-description: "Nursing Ausbildung in Germany – A Guide for Starters If you are interested in pursuing a career in nursing, Germany offers a wide range of educational opportunities and job prospects. With a population of over 80 million people, there is a constant demand for skilled and dedicated healthcare professionals. As…"
+title: "Nursing Ausbildung in Germany | Caspia Overseas Studies"
+seoTitle: "Nursing Ausbildung in Germany | Caspia Overseas Studies"
+description: "A guide to nursing Ausbildung in Germany: a 3-year paid training program covering entry requirements, career paths, and average nurse salaries around €47,000."
 ogImage: "/images/2023/03/successful-medical-team.jpg"
 date: "2023-03-26T21:04:55+05:30"
 modified: "2023-04-15T08:57:26+05:30"

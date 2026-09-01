@@ -1,7 +1,7 @@
 ---
-title: "Working Part-Time During Ausbildung: The New 2026 Rules Explained"
-seoTitle: "Working Part-Time During Ausbildung: The New 2026 Rules Explained"
-description: "Can you work part-time during an Ausbildung in Germany? Discover the new 2026 rules allowing 20 hours of secondary employment, Minijob tax benefits, and how to maximize your income."
+title: "Working Part-Time During Ausbildung: 2026 Rules | Caspia"
+seoTitle: "Working Part-Time During Ausbildung: 2026 Rules | Caspia"
+description: "Learn Germany's 2026 rules on working part-time during an Ausbildung: the new 20-hour weekly limit, tax-free Minijobs, and how to legally boost your stipend income."
 ogImage: ""
 date: "2026-03-15T02:26:09+05:30"
 modified: "2026-03-15T02:49:31+05:30"

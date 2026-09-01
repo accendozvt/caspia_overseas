@@ -6,12 +6,12 @@ export const metadata: Metadata = {
     absolute: "Study in Australia - Caspia Overseas Studies - No.1 in Kerala",
   },
   description:
-    "Study in Australia, a beacon for students seeking a world-class education in an English-speaking nation.",
+    "Study in Australia with Caspia Overseas Studies: expert guidance on world-class universities, post-study work visas, and English-speaking campus life.",
   alternates: { canonical: "/study-in-australia/" },
   openGraph: {
     title: "Study in Australia - Caspia Overseas Studies - No.1 in Kerala",
     description:
-      "Study in Australia, a beacon for students seeking a world-class education in an English-speaking nation.",
+      "Study in Australia with Caspia Overseas Studies: expert guidance on world-class universities, post-study work visas, and English-speaking campus life.",
     images: ["/images/2023/11/Australia.png"],
   },
 };

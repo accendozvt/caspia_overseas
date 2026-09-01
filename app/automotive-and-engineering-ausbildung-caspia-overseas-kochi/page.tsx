@@ -6,18 +6,16 @@ import {
 
 export const metadata: Metadata = {
   title: {
-    absolute:
-      "Automotive and Engineering Ausbildung - Caspia Overseas - Kochi - Caspia Overseas Studies",
+    absolute: "Automotive Ausbildung in Germany | Caspia Overseas",
   },
   description:
-    'Your Gateway to World-Class Education Study Automotive and Engineering Ausbildung in Germany Automotive & Engineering Ausbildung in Germany: Build Machines, Earn Euros (2026) Earn €1,100 - €1,400 Monthly Stipend | Zero Tuition Fees | The "Car Nation" Experience Germany is the birthplace of the automobile and the world\'s factory floor.…',
+    "Build machines and earn euros with Germany's Automotive & Engineering Ausbildung: €1,100-€1,400 monthly stipend, zero tuition fees, in the world's car-making capital.",
   alternates: { canonical: "/automotive-and-engineering-ausbildung-caspia-overseas-kochi/" },
   openGraph: {
     type: "article",
-    title:
-      "Automotive and Engineering Ausbildung - Caspia Overseas - Kochi - Caspia Overseas Studies",
+    title: "Automotive Ausbildung in Germany | Caspia Overseas",
     description:
-      'Your Gateway to World-Class Education Study Automotive and Engineering Ausbildung in Germany Automotive & Engineering Ausbildung in Germany: Build Machines, Earn Euros (2026) Earn €1,100 - €1,400 Monthly Stipend | Zero Tuition Fees | The "Car Nation" Experience Germany is the birthplace of the automobile and the world\'s factory floor.…',
+      "Build machines and earn euros with Germany's Automotive & Engineering Ausbildung: €1,100-€1,400 monthly stipend, zero tuition fees, in the world's car-making capital.",
   },
 };
 

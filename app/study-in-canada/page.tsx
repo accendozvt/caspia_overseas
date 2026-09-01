@@ -6,12 +6,12 @@ export const metadata: Metadata = {
     absolute: "Study in Canada - Caspia Overseas Studies - No.1 in Kerala",
   },
   description:
-    "Study in Canada, the world’s second-largest country, stretches from the Atlantic to the Pacific and into the Arctic Ocean.",
+    "Study in Canada with Caspia Overseas Studies: expert guidance on top universities, Express Entry pathways, and building your future from Kochi, Kerala.",
   alternates: { canonical: "/study-in-canada/" },
   openGraph: {
     title: "Study in Canada - Caspia Overseas Studies - No.1 in Kerala",
     description:
-      "Study in Canada, the world’s second-largest country, stretches from the Atlantic to the Pacific and into the Arctic Ocean.",
+      "Study in Canada with Caspia Overseas Studies: expert guidance on top universities, Express Entry pathways, and building your future from Kochi, Kerala.",
     images: ["/images/2023/11/Canada.png"],
   },
 };

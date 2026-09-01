@@ -1,7 +1,7 @@
 ---
-title: "Germany - The Booming New Abroad Study Destination"
-seoTitle: "Germany - The Booming New Abroad Study Destination - Caspia Overseas Studies"
-description: "Why Germany?? Germany is a country located in central Europe. It has a rich history and culture, with cities like Berlin, Munich, and Frankfurt offering a diverse range of attractions for visitors. One of the most iconic symbols of Germany is the Brandenburg Gate in Berlin, which serves as a…"
+title: "Germany: A Top Study Abroad Destination | Caspia Overseas"
+seoTitle: "Germany: A Top Study Abroad Destination | Caspia Overseas"
+description: "Discover why Germany is becoming a top study-abroad destination: world-class universities, a strong economy, rich culture, and cities like Berlin and Munich."
 ogImage: "/images/2023/03/learn-german-language-online-education-concept.jpg"
 date: "2023-03-26T17:49:26+05:30"
 modified: "2023-04-15T10:15:48+05:30"

@@ -1,6 +1,6 @@
 ---
-title: "Top Reasons German National Visa Applications Get Rejected (And How to Avoid Them)"
-seoTitle: "German Visa Rejection Reasons | How Kerala Applicants Can Avoid Them"
+title: "German Visa Rejection Reasons for Kerala | Caspia Overseas"
+seoTitle: "German Visa Rejection Reasons for Kerala | Caspia Overseas"
 description: "Understand the real German visa rejection reasons and strengthen your national visa application from Kerala with practical, document-by-document fixes."
 ogImage: ""
 date: "2026-07-16T14:00:00+05:30"

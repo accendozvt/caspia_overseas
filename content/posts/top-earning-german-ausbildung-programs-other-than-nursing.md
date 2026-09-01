@@ -1,7 +1,7 @@
 ---
-title: "Top earning German Ausbildung programs other than Nursing"
-seoTitle: "Top earning German Ausbildung programs other than Nursing - Caspia Overseas Studies"
-description: "Top Earning Ausbildung programs in Germany. In Germany, \"Ausbildung\" refers to vocational education and training programs that combine classroom instruction with practical, on-the-job experience. While the earning potential of these programs can vary depending on the industry and region, here are some of the top earning German Ausbildung programs: 1.…"
+title: "Top Earning Ausbildung Programs Besides Nursing | Caspia"
+seoTitle: "Top Earning Ausbildung Programs Besides Nursing | Caspia"
+description: "Explore top-earning German Ausbildung programs beyond Nursing, from Mechatronics and IT Specialist to Aerospace Engineer, with monthly salary ranges."
 ogImage: "/images/2023/07/group-three-modern-architects-1.jpg"
 date: "2023-05-01T13:57:48+05:30"
 modified: "2023-07-19T01:22:35+05:30"

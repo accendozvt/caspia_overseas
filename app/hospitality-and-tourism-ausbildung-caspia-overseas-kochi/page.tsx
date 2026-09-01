@@ -6,18 +6,16 @@ import {
 
 export const metadata: Metadata = {
   title: {
-    absolute:
-      "Hospitality and Tourism Ausbildung - Caspia Overseas - Kochi - Caspia Overseas Studies",
+    absolute: "Hospitality Ausbildung in Germany | Caspia Overseas",
   },
   description:
-    "Your Gateway to World-Class Education Study Hospitality and Tourism Ausbildung in Germany Hospitality & Tourism Ausbildung in Germany: Your Global Career Starts Here (2026) Earn €1,000 - €1,300 Monthly Stipend | Zero Tuition Fees | Travel the World Do you dream of managing a luxury hotel in Berlin, crafting culinary…",
+    "Launch a global hospitality career with Germany's Hospitality & Tourism Ausbildung: €1,000-€1,300 monthly stipend, zero tuition fees, real hotel management experience.",
   alternates: { canonical: "/hospitality-and-tourism-ausbildung-caspia-overseas-kochi/" },
   openGraph: {
     type: "article",
-    title:
-      "Hospitality and Tourism Ausbildung - Caspia Overseas - Kochi - Caspia Overseas Studies",
+    title: "Hospitality Ausbildung in Germany | Caspia Overseas",
     description:
-      "Your Gateway to World-Class Education Study Hospitality and Tourism Ausbildung in Germany Hospitality & Tourism Ausbildung in Germany: Your Global Career Starts Here (2026) Earn €1,000 - €1,300 Monthly Stipend | Zero Tuition Fees | Travel the World Do you dream of managing a luxury hotel in Berlin, crafting culinary…",
+      "Launch a global hospitality career with Germany's Hospitality & Tourism Ausbildung: €1,000-€1,300 monthly stipend, zero tuition fees, real hotel management experience.",
   },
 };
 

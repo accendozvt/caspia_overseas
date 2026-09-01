@@ -1,7 +1,7 @@
 ---
-title: "The 2026 Ausbildung Stipend Increase: How Much Can Indian Students Actually Earn?"
-seoTitle: "The 2026 Ausbildung Stipend Increase: How Much Can Indian Students Actually Earn?"
-description: "Discover the latest 2026 Ausbildung stipend rates in Germany. From Nursing to IT, learn how Indian students can earn up to €1,400/month and bypass the Blocked Account with Caspia Overseas."
+title: "2026 Ausbildung Stipend Increase | Caspia Overseas"
+seoTitle: "2026 Ausbildung Stipend Increase | Caspia Overseas"
+description: "See the 2026 Ausbildung stipend rates in Germany, from the €724 minimum to €1,400+ in Nursing and IT, plus the Blocked Account waiver explained."
 ogImage: ""
 date: "2026-03-15T02:24:17+05:30"
 modified: "2026-03-15T02:45:37+05:30"

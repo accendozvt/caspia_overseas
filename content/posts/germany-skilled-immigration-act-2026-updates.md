@@ -1,6 +1,6 @@
 ---
-title: "Germany's Skilled Immigration Act: What's Changed for Indian Applicants"
-seoTitle: "Germany Skilled Immigration Act 2026 | Changes for Indian Applicants"
+title: "Germany Skilled Immigration Act 2026 | Caspia Overseas Studies"
+seoTitle: "Germany Skilled Immigration Act 2026 | Caspia Overseas Studies"
 description: "Germany overhauled skilled migration under the Skilled Immigration Act. Here is what is now in force for Indian applicants and how to qualify in 2026."
 ogImage: ""
 date: "2026-06-29T10:15:00+05:30"

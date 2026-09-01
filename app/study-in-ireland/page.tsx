@@ -6,12 +6,12 @@ export const metadata: Metadata = {
     absolute: "Study in Ireland - Caspia Overseas Studies - No.1 in Kerala",
   },
   description:
-    "Your Gateway to World-Class Education Register Today Enquire Now Study in Ireland & enhance on your career journey Caspia Overseas Studies, the premier educational consultancy in Kochi, Kerala, offers expert guidance for students aspiring to study in Ireland, an island steeped in history and rich in culture, divided into the…",
+    "Study in Ireland with Caspia Overseas Studies, Kochi's premier consultancy, offering expert guidance for your academic journey in this history-rich nation.",
   alternates: { canonical: "/study-in-ireland/" },
   openGraph: {
     title: "Study in Ireland - Caspia Overseas Studies - No.1 in Kerala",
     description:
-      "Your Gateway to World-Class Education Register Today Enquire Now Study in Ireland & enhance on your career journey Caspia Overseas Studies, the premier educational consultancy in Kochi, Kerala, offers expert guidance for students aspiring to study in Ireland, an island steeped in history and rich in culture, divided into the…",
+      "Study in Ireland with Caspia Overseas Studies, Kochi's premier consultancy, offering expert guidance for your academic journey in this history-rich nation.",
     images: ["/images/2023/11/Ireland.png"],
   },
 };

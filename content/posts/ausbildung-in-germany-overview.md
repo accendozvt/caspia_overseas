@@ -1,7 +1,7 @@
 ---
 title: "Ausbildung in Germany - Overview"
 seoTitle: "Ausbildung in Germany - Overview - Caspia Overseas Studies"
-description: "Ausbildung - An Overview In Germany, the Ausbildung system is a vocational training program that combines classroom learning with practical training in a workplace setting. This system is highly respected and valued by German employers, as it provides students with the practical skills and knowledge they need to be successful…"
+description: "A clear overview of Germany's Ausbildung system: paid vocational training combining classroom learning with hands-on workplace experience and certification."
 ogImage: "/images/2023/03/education-learning-germany-schooling-europe-deutschland-deutsche-flag-schoolgirl-hold.jpg"
 date: "2023-03-26T20:41:10+05:30"
 modified: "2023-04-15T08:58:00+05:30"

@@ -1,6 +1,6 @@
 ---
-title: "Health Insurance & Social Security for Ausbildung Trainees in Germany"
-seoTitle: "Health Insurance for Ausbildung Trainees Germany | Complete Guide"
+title: "Health Insurance for Ausbildung Trainees | Caspia Overseas"
+seoTitle: "Health Insurance for Ausbildung Trainees | Caspia Overseas"
 description: "Understand health insurance Ausbildung Germany and social security trainees must know: coverage, deductions, and what your stipend really buys."
 ogImage: ""
 date: "2026-07-13T14:00:00+05:30"

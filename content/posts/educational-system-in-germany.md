@@ -1,7 +1,7 @@
 ---
 title: "Educational System in Germany"
 seoTitle: "Educational System in Germany - Caspia Overseas Studies"
-description: "Educational System in Germany Germany has a highly regarded educational system that emphasizes academic rigor and practical training. The country offers a wide range of educational opportunities, from vocational training programs to internationally recognized university degrees. The German education system is divided into three main levels: primary, secondary, and tertiary…"
+description: "A look at Germany's education system, from Grundschule through Gymnasium, plus the dual vocational system that pairs classroom study with hands-on job training."
 ogImage: "/images/2023/03/graduation-cap-pile-books-with-copy-space.jpg"
 date: "2023-03-26T17:53:44+05:30"
 modified: "2023-04-15T08:58:01+05:30"

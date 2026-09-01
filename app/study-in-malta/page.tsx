@@ -6,12 +6,12 @@ export const metadata: Metadata = {
     absolute: "Study in Malta - Caspia Overseas Studies - No.1 in Kerala",
   },
   description:
-    "Embark on your academic journey to Study in Malta today! With its affordability, Schengen access, and vibrant culture, Malta is the perfect place to build your future.",
+    "Study in Malta with Caspia Overseas Studies: enjoy affordability, Schengen access, and vibrant culture while building your European academic future.",
   alternates: { canonical: "/study-in-malta/" },
   openGraph: {
     title: "Study in Malta - Caspia Overseas Studies - No.1 in Kerala",
     description:
-      "Embark on your academic journey to Study in Malta today! With its affordability, Schengen access, and vibrant culture, Malta is the perfect place to build your future.",
+      "Study in Malta with Caspia Overseas Studies: enjoy affordability, Schengen access, and vibrant culture while building your European academic future.",
     images: ["/images/2025/01/Malta.png"],
   },
 };
@@ -83,7 +83,7 @@ const data: CountryData = {
     {
       heading: "Want to Study in Malta? Choose Caspia Overseas Studies, Kochi",
       paragraphs: [
-        "Embark on your academic journey to Study in Malta today! With its affordability, Schengen access, and vibrant culture, Malta is the perfect place to build your future.",
+        "Study in Malta with Caspia Overseas Studies: enjoy affordability, Schengen access, and vibrant culture while building your European academic future.",
       ],
       bullets: [
         "Trusted Education Consultant: Leading the way in overseas education consulting in Kerala.",
