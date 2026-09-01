@@ -45,6 +45,9 @@ next-env.d.ts
 /seo-audit/*
 !/seo-audit/SEO-REPORT.md
 
+# Deployment archives built from out/ - regenerate rather than commit (~37 MB).
+/*.zip
+
 # Generated responsive WebP variants (scripts/generate-images.js, run as prebuild).
 # Rebuilt from public/images on every build; lib/image-manifest.json IS committed so
 # type-checking works without running the generator first.
