@@ -233,7 +233,7 @@ export default function HomePage() {
             />
           </div>
           <div className="order-1 lg:order-2">
-            <p className="text-xs md:text-sm font-bold uppercase tracking-[0.2em] text-orange mb-3">
+            <p className="text-xs md:text-sm font-bold uppercase tracking-[0.2em] text-accent-ink mb-3">
               Unlock Your Global Career with 2026&rsquo;s Top-Rated Language Training Institute.
             </p>
             <h2 className="text-2xl md:text-4xl font-extrabold text-secondary leading-tight">
@@ -376,7 +376,7 @@ export default function HomePage() {
             </div>
             {/* Card 2 */}
             <div className="bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 rounded-2xl bg-accent/10 text-accent flex items-center justify-center font-extrabold text-xl mb-5">
+              <div className="w-12 h-12 rounded-2xl bg-accent/10 text-accent-ink flex items-center justify-center font-extrabold text-xl mb-5">
                 2
               </div>
               <h3 className="text-lg font-extrabold text-secondary">2026-Ready Hybrid Learning</h3>
@@ -399,7 +399,7 @@ export default function HomePage() {
             </div>
             {/* Card 3 */}
             <div className="bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 rounded-2xl bg-orange/10 text-orange flex items-center justify-center font-extrabold text-xl mb-5">
+              <div className="w-12 h-12 rounded-2xl bg-orange/10 text-accent-ink flex items-center justify-center font-extrabold text-xl mb-5">
                 3
               </div>
               <h3 className="text-lg font-extrabold text-secondary">
@@ -621,7 +621,7 @@ export default function HomePage() {
               >
                 <div
                   className={`mx-auto w-14 h-14 rounded-2xl flex items-center justify-center mb-5 ${
-                    i === 0 ? "bg-primary/10 text-primary" : i === 1 ? "bg-accent/10 text-accent" : "bg-orange/10 text-orange"
+                    i === 0 ? "bg-primary/10 text-primary" : i === 1 ? "bg-accent/10 text-accent-ink" : "bg-orange/10 text-accent-ink"
                   }`}
                   aria-hidden
                 >
@@ -678,7 +678,7 @@ export default function HomePage() {
                   <h3 className="font-bold text-secondary group-hover:text-primary transition-colors line-clamp-2">
                     {p.title}
                   </h3>
-                  <span className="mt-4 text-sm font-bold text-orange">Read More »</span>
+                  <span className="mt-4 text-sm font-bold text-accent-ink">Read More »</span>
                 </div>
               </Link>
             ))}

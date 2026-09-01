@@ -73,19 +73,19 @@ export default function EnrolledAgentPage() {
       <section className="py-12">
         <div className="mx-auto max-w-7xl px-4 grid sm:grid-cols-3 gap-6">
           <div className="text-center bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5">
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-orange">Course Fee</p>
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent-ink">Course Fee</p>
             <p className="mt-2 text-2xl md:text-3xl font-extrabold text-secondary">
               Rs.85,000 + Tax
             </p>
           </div>
           <div className="text-center bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5">
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-orange">Duration</p>
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent-ink">Duration</p>
             <p className="mt-2 text-2xl md:text-3xl font-extrabold text-secondary">
               6 Months Inhouse Training
             </p>
           </div>
           <div className="text-center bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5">
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-orange">EA Exam Fee</p>
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent-ink">EA Exam Fee</p>
             <p className="mt-2 text-2xl md:text-3xl font-extrabold text-secondary">
               $203 per attempt
             </p>
@@ -259,7 +259,7 @@ export default function EnrolledAgentPage() {
                 "5 days or less: You will be required to pay another full examination fee if you reschedule less than five calendar days before your appointment date",
               ].map((t) => (
                 <li key={t} className="flex gap-3 items-start text-ink/85">
-                  <span className="mt-1.5 shrink-0 w-5 h-5 rounded-full bg-orange/15 text-orange flex items-center justify-center" aria-hidden>
+                  <span className="mt-1.5 shrink-0 w-5 h-5 rounded-full bg-orange/15 text-accent-ink flex items-center justify-center" aria-hidden>
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
                       <polyline points="20 6 9 17 4 12" />
                     </svg>

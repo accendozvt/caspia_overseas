@@ -107,8 +107,8 @@ const toneCls: Record<Tone, string> = {
 
 const badgeCls = [
   "bg-primary/10 text-primary",
-  "bg-accent/10 text-accent",
-  "bg-orange/10 text-orange",
+  "bg-accent/10 text-accent-ink",
+  "bg-orange/10 text-accent-ink",
 ];
 
 /** Bolds a leading "Label:" prefix while keeping the text verbatim. */
@@ -474,7 +474,7 @@ export function AusbildungProgramPage({ data }: { data: AusbildungPageData }) {
             <h2 className="text-2xl md:text-4xl font-extrabold text-secondary leading-tight">
               {data.headline}
             </h2>
-            <p className="mt-4 text-orange font-bold md:text-lg">{data.subheadline}</p>
+            <p className="mt-4 text-accent-ink font-bold md:text-lg">{data.subheadline}</p>
             <div className="mt-6 space-y-4 text-ink/85 leading-relaxed">
               {data.intro.map((p, i) => (
                 <p key={i}>{p}</p>

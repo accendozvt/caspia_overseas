@@ -132,7 +132,7 @@ function StarIcon() {
       height="16"
       viewBox="0 0 24 24"
       fill="currentColor"
-      className="shrink-0 text-orange"
+      className="shrink-0 text-accent-ink"
       aria-hidden
     >
       <path d="M12 2l2.9 6.26L21.5 9.27l-4.75 4.36L18 20.5 12 17.27 6 20.5l1.25-6.87L2.5 9.27l6.6-1.01L12 2z" />
@@ -179,7 +179,7 @@ function FactCard({ text }: { text: string }) {
     <div className="rounded-2xl bg-white p-5 ring-1 ring-black/5 shadow-sm border-l-4 border-accent">
       {splittable ? (
         <>
-          <p className="text-[11px] font-bold uppercase tracking-[0.15em] text-orange">
+          <p className="text-[11px] font-bold uppercase tracking-[0.15em] text-accent-ink">
             {text.slice(0, idx)}
           </p>
           <p className="mt-1.5 font-bold text-secondary leading-snug">

@@ -86,7 +86,7 @@ export default function ContactPage() {
             </div>
             {/* Address */}
             <div className="bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5 hover:shadow-lg transition-shadow text-center">
-              <div className="mx-auto w-14 h-14 rounded-2xl bg-orange/10 text-orange flex items-center justify-center mb-5" aria-hidden>
+              <div className="mx-auto w-14 h-14 rounded-2xl bg-orange/10 text-accent-ink flex items-center justify-center mb-5" aria-hidden>
                 <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" />
                   <circle cx="12" cy="10" r="3" />
@@ -128,7 +128,7 @@ export default function ContactPage() {
             <h2 className="text-2xl md:text-4xl font-extrabold text-secondary leading-tight">
               For Admission Related Queries
             </h2>
-            <p className="mt-2 text-orange font-bold">(Only for INDIAN Nationals)</p>
+            <p className="mt-2 text-accent-ink font-bold">(Only for INDIAN Nationals)</p>
             <p className="mt-5 text-ink/80 leading-relaxed">
               Fill in the form and our admission counsellors will get back to you at the earliest.
             </p>

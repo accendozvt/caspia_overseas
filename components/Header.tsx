@@ -123,7 +123,7 @@ export default function Header() {
               href={site.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2.5 rounded-full text-sm font-bold text-white bg-orange hover:brightness-110 transition-all"
+              className="px-4 py-2.5 rounded-full text-sm font-bold text-white bg-orange-strong hover:brightness-110 transition-all"
             >
               Enquire Now
             </a>
@@ -207,7 +207,7 @@ export default function Header() {
                 href={site.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 text-center px-4 py-2.5 rounded-full text-sm font-bold text-white bg-orange"
+                className="flex-1 text-center px-4 py-2.5 rounded-full text-sm font-bold text-white bg-orange-strong"
               >
                 Enquire Now
               </a>

@@ -55,7 +55,7 @@ function CourseCard({ title, href }: { title: string; href?: string }) {
         {title}
       </h3>
       {href && (
-        <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-bold text-orange">
+        <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-bold text-accent-ink">
           Learn more
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
             <path d="M5 12h14" />

@@ -12,10 +12,25 @@
   --color-accent-soft: #ffe4cc;
   --color-orange: #fa8835;
   --color-orange-dark: #e8721c;
+
+  /*
+    The brand orange #fa8835 only reaches 2.43:1 on white, so it cannot carry small
+    text on a light background. It is kept unchanged above for dark backgrounds
+    (6.13:1 on the hero) and for decorative fills, and these two darker steps are
+    used where contrast actually applies:
+      accent-ink     - orange TEXT on white/mist   5.01 on white, 4.55 on mist
+      orange-strong  - button FILL under white text            4.54
+    Do not swap one for the other: accent-ink is too dark to read as a button, and
+    orange-strong is too light to carry 12px text.
+  */
+  --color-accent-ink: #b85005;
+  --color-orange-strong: #c35505;
+
   --color-blue: #1156b6;
   --color-red: #ef4848;
   --color-ink: #2c3338;
-  --color-muted: #787878;
+  /* #787878 measured 4.42:1 on white and 4.00:1 on mist - both under 4.5. */
+  --color-muted: #6e6e6e;
   --color-mist: #f2f4f6;
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
@@ -26,6 +41,17 @@ body {
   background: #ffffff;
   color: var(--color-ink);
   font-family: var(--font-sans);
+}
+
+/*
+  The embedded FormFacade form ships its own stylesheet, which colours the
+  required-field asterisk #ef4444 - only 3.76:1 on white, under AA. Their CSS is
+  third-party so it can't be edited; this overrides it to 5.13:1. Scoped as
+  `body .ff-required` rather than `!important` so it wins on specificity alone,
+  regardless of which stylesheet loads last.
+*/
+body .ff-required {
+  color: #d42525;
 }
 
 /*

@@ -72,7 +72,7 @@ export default function BlogsPage() {
               </div>
             )}
             <div className="p-8 md:p-10 flex flex-col justify-center">
-              <p className="text-xs font-bold uppercase tracking-widest text-orange mb-3">
+              <p className="text-xs font-bold uppercase tracking-widest text-accent-ink mb-3">
                 Latest Article
               </p>
               <h2 className="text-2xl md:text-3xl font-extrabold text-secondary group-hover:text-primary transition-colors">

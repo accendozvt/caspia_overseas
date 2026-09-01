@@ -187,7 +187,7 @@ export default function AboutPage() {
               </ul>
             </div>
             <div className="bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 rounded-2xl bg-accent/10 text-accent flex items-center justify-center font-extrabold text-xl mb-5">
+              <div className="w-12 h-12 rounded-2xl bg-accent/10 text-accent-ink flex items-center justify-center font-extrabold text-xl mb-5">
                 2
               </div>
               <h3 className="text-lg font-extrabold text-secondary">
@@ -208,7 +208,7 @@ export default function AboutPage() {
               </ul>
             </div>
             <div className="bg-white rounded-3xl p-8 shadow-sm ring-1 ring-black/5 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 rounded-2xl bg-orange/10 text-orange flex items-center justify-center font-extrabold text-xl mb-5">
+              <div className="w-12 h-12 rounded-2xl bg-orange/10 text-accent-ink flex items-center justify-center font-extrabold text-xl mb-5">
                 3
               </div>
               <h3 className="text-lg font-extrabold text-secondary">A Track Record of Success</h3>

@@ -162,8 +162,8 @@ const readySteps = [
 
 const badgeCls = [
   "bg-primary/10 text-primary",
-  "bg-accent/10 text-accent",
-  "bg-orange/10 text-orange",
+  "bg-accent/10 text-accent-ink",
+  "bg-orange/10 text-accent-ink",
 ];
 
 function CheckIcon() {
@@ -230,7 +230,7 @@ export default function NursingAusbildungPage() {
               Nursing Ausbildung in Germany: Your Complete Guide to a Free, Paid Career in
               2026
             </h2>
-            <p className="mt-4 text-orange font-bold md:text-lg">
+            <p className="mt-4 text-accent-ink font-bold md:text-lg">
               Become a Global Healthcare Professional with Zero Tuition Fees &amp; a Monthly
               Salary.
             </p>
