@@ -5,15 +5,18 @@ import {
 } from "@/components/ausbildung/AusbildungProgramPage";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Automotive Ausbildung in Germany | Caspia Overseas",
   description:
     "Build machines and earn euros with Germany's Automotive & Engineering Ausbildung: €1,100-€1,400 monthly stipend, zero tuition fees, in the world's car-making capital.",
   path: "/automotive-and-engineering-ausbildung-caspia-overseas-kochi/",
   type: "article",
-});
+} as const;
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const data: AusbildungPageData = {
+  seo: { ...seo, programName: "Automotive & Engineering Ausbildung" },
   heroTitle: "Study Automotive and Engineering Ausbildung in Germany",
   headline: "Automotive & Engineering Ausbildung in Germany: Build Machines, Earn Euros (2026)",
   subheadline:

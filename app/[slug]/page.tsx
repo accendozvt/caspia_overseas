@@ -4,8 +4,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPost, getPostSlugs } from "@/lib/posts";
 import { ContactBand } from "@/components/ui";
-import { site } from "@/lib/site";
+import { JsonLd } from "@/components/JsonLd";
 import { pageMetadata } from "@/lib/metadata";
+import { articleNode, pageGraph } from "@/lib/jsonld";
 
 export const dynamicParams = false;
 
@@ -58,28 +59,33 @@ export default async function PostPage({
     .filter((p) => p.slug !== slug)
     .slice(0, 3);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: post.title,
-    description: post.description,
-    image: post.ogImage ? `${site.url}${post.ogImage}` : undefined,
-    datePublished: post.date || undefined,
-    dateModified: post.modified || undefined,
-    author: { "@type": "Organization", name: site.name },
-    publisher: {
-      "@type": "Organization",
-      name: site.name,
-      logo: { "@type": "ImageObject", url: `${site.url}/images/2023/01/Caspia-Squ.png` },
-    },
-    mainEntityOfPage: `${site.url}/${slug}/`,
-  };
+  const path = `/${slug}/`;
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <JsonLd
+        data={pageGraph({
+          title: post.seoTitle,
+          description: post.description,
+          path,
+          image: post.ogImage || undefined,
+          datePublished: post.date || undefined,
+          dateModified: post.modified || undefined,
+          breadcrumbs: [
+            { name: "Blog", path: "/blogs/" },
+            { name: post.title, path },
+          ],
+          extraNodes: [
+            articleNode({
+              headline: post.title,
+              description: post.description,
+              path,
+              image: post.ogImage || undefined,
+              datePublished: post.date || undefined,
+              dateModified: post.modified || undefined,
+            }),
+          ],
+        })}
       />
 
       {/* Hero */}

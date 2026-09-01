@@ -4,13 +4,17 @@ import { WhatsAppCTA } from "@/components/ui";
 import FormEmbed from "@/components/FormEmbed";
 import { site } from "@/lib/site";
 import { pageMetadata } from "@/lib/metadata";
+import { JsonLd } from "@/components/JsonLd";
+import { pageGraph } from "@/lib/jsonld";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Contact - Caspia Overseas Studies - German Language Classes",
   description:
     "Contact Caspia Overseas Studies in Vyttila, Kochi for German language classes and Ausbildung guidance. Call, WhatsApp, or visit one of our 5 Kerala branches.",
   path: "/contact-caspia-overseas-studies/",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const socials = [
   { label: "Facebook", href: site.social.facebook },
@@ -23,6 +27,14 @@ const socials = [
 export default function ContactPage() {
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          ...seo,
+          kind: "ContactPage",
+          breadcrumbs: [{ name: "Contact", path: "/contact-caspia-overseas-studies/" }],
+        })}
+      />
+
       {/* ============ HERO ============ */}
       <section className="relative bg-hero bg-hero-shine text-white overflow-hidden">
         <div className="relative mx-auto max-w-7xl px-4 py-16 md:py-24 text-center">

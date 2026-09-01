@@ -2,14 +2,17 @@ import type { Metadata } from "next";
 import CountryPage, { type CountryData } from "@/components/country/CountryPage";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Study in Germany - Caspia Overseas Studies - No.1 in Kerala",
   description:
     "Caspia Overseas Studies, a leading educational consultancy in Kochi, stands as a beacon for Indian students navigating the path to study in Germany.",
   path: "/study-in-germany/",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const data: CountryData = {
+  seo: { ...seo, countryName: "Germany" },
   heroTitle: "Study in Germany",
   sections: [
     {

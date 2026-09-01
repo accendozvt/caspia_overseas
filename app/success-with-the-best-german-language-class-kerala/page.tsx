@@ -7,13 +7,17 @@ import {
 } from "@/components/ui";
 import FormEmbed from "@/components/FormEmbed";
 import { pageMetadata } from "@/lib/metadata";
+import { JsonLd } from "@/components/JsonLd";
+import { pageGraph } from "@/lib/jsonld";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Success with Kerala's No.1 German Language Class | Caspia",
   description:
     "Caspia Overseas Studies is the leading institute for German language class and training in Kerala, with a range of courses from beginner to advanced levels.",
   path: "/success-with-the-best-german-language-class-kerala/",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const whyChoose = [
   {
@@ -72,6 +76,18 @@ const highlights = [
 export default function SuccessGermanClassPage() {
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          ...seo,
+          breadcrumbs: [
+            {
+              name: "Success with Kerala's No.1 German Language Class",
+              path: "/success-with-the-best-german-language-class-kerala/",
+            },
+          ],
+        })}
+      />
+
       <PageHero
         eyebrow="Your Gateway to World-Class Education"
         title="Study in Germany"

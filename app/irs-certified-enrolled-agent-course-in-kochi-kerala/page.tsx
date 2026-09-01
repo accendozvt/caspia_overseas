@@ -2,17 +2,34 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { SectionHeading, PrimaryCTA } from "@/components/ui";
 import { pageMetadata } from "@/lib/metadata";
+import { JsonLd } from "@/components/JsonLd";
+import { pageGraph } from "@/lib/jsonld";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "IRS Certified Enrolled Agent - Caspia Overseas Studies",
   description:
     "Become an IRS Enrolled Agent with Caspia Overseas Studies in Kochi: master U.S. taxation, prepare federal tax returns, and unlock MNC jobs in tax practice.",
   path: "/irs-certified-enrolled-agent-course-in-kochi-kerala/",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 export default function EnrolledAgentPage() {
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          ...seo,
+          breadcrumbs: [
+            { name: "Courses", path: "/courses/" },
+            {
+              name: "IRS Certified Enrolled Agent",
+              path: "/irs-certified-enrolled-agent-course-in-kochi-kerala/",
+            },
+          ],
+        })}
+      />
+
       {/* ============ HERO ============ */}
       <section className="relative bg-hero bg-hero-shine text-white overflow-hidden">
         <div className="relative mx-auto max-w-7xl px-4 py-16 md:py-24 grid lg:grid-cols-2 gap-12 items-center">

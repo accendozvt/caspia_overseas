@@ -2,16 +2,19 @@ import type { Metadata } from "next";
 import CountryPage, { type CountryData } from "@/components/country/CountryPage";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Study in Canada - Caspia Overseas Studies - No.1 in Kerala",
   description:
     "Study in Canada with Caspia Overseas Studies: expert guidance on top universities, Express Entry pathways, and building your future from Kochi, Kerala.",
   path: "/study-in-canada/",
   image: "/images/2023/11/Canada.png",
   imageAlt: "Study in Canada with Caspia Overseas Studies",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const data: CountryData = {
+  seo: { ...seo, countryName: "Canada" },
   heroTitle: "Study in Canada",
   registerHref: "https://bit.ly/3NpzrDU",
   enquireHref:

@@ -4,13 +4,17 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/posts";
 import { ContactBand } from "@/components/ui";
 import { pageMetadata } from "@/lib/metadata";
+import { JsonLd } from "@/components/JsonLd";
+import { pageGraph } from "@/lib/jsonld";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Blog: German Language & Ausbildung Guides | Caspia",
   description:
     "Insights, guides and updates on German language learning, Ausbildung programs, and studying abroad: from Caspia Overseas Studies, Kochi.",
   path: "/blogs/",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 function formatDate(iso: string): string {
   if (!iso) return "";
@@ -27,6 +31,14 @@ export default function BlogsPage() {
 
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          ...seo,
+          kind: "CollectionPage",
+          breadcrumbs: [{ name: "Blog", path: "/blogs/" }],
+        })}
+      />
+
       <section className="relative bg-hero bg-hero-shine text-white overflow-hidden">
         <div className="relative mx-auto max-w-7xl px-4 py-14 md:py-20 text-center">
           <p className="text-xs md:text-sm font-bold uppercase tracking-[0.25em] text-accent mb-4">

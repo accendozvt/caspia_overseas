@@ -4,17 +4,20 @@ import {
   SectionHeading,
   WhatsAppCTA,
   FAQ,
-  FAQJsonLd,
   type FAQItem,
 } from "@/components/ui";
+import { JsonLd } from "@/components/JsonLd";
 import { pageMetadata } from "@/lib/metadata";
+import { pageGraph } from "@/lib/jsonld";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Best German Institute in Kerala | Caspia Overseas Studies",
   description:
     "Caspia Overseas Studies is Kochi's leading German language institute, offering expert A1-B2 classes and Nursing Ausbildung placement in Germany.",
   path: "/the-best-german-language-training-in-kerala/",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const faqItems: FAQItem[] = [
   {
@@ -102,7 +105,14 @@ const faqItems: FAQItem[] = [
 export default function AboutPage() {
   return (
     <>
-      <FAQJsonLd items={faqItems} />
+      <JsonLd
+        data={pageGraph({
+          ...seo,
+          kind: "AboutPage",
+          faq: faqItems,
+          breadcrumbs: [{ name: "About", path: seo.path }],
+        })}
+      />
 
       {/* ============ HERO ============ */}
       <section className="relative bg-hero bg-hero-shine text-white overflow-hidden">

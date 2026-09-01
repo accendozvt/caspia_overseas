@@ -5,15 +5,18 @@ import {
 } from "@/components/ausbildung/AusbildungProgramPage";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "IT Ausbildung in Germany | Caspia Overseas Studies",
   description:
     "Skip the B.Tech debt: Germany's IT Ausbildung pays €1,100-€1,400 monthly with zero tuition fees, launching Kerala tech enthusiasts into a paid German IT career.",
   path: "/information-technology-ausbildung-caspia-overseas-kochi/",
   type: "article",
-});
+} as const;
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const data: AusbildungPageData = {
+  seo: { ...seo, programName: "Information Technology Ausbildung" },
   heroTitle: "Study Ausbildung in Information Technology in Germany",
   headline: "IT Ausbildung in Germany: Launch Your Tech Career with a Monthly Salary (2026)",
   subheadline:

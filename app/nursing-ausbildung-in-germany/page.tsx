@@ -6,17 +6,20 @@ import {
   SectionHeading,
   WhatsAppCTA,
   FAQ,
-  FAQJsonLd,
   ContactBand,
   type FAQItem,
 } from "@/components/ui";
+import { JsonLd } from "@/components/JsonLd";
+import { pageGraph, serviceNode } from "@/lib/jsonld";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Nursing Ausbildung in Germany | Caspia Overseas Studies",
   description:
     "Caspia Overseas Studies (formerly DirectionNXT) is Kochi's pioneer in German language training and admission guidance for Nursing Ausbildung in Germany.",
   path: "/nursing-ausbildung-in-germany/",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const faqItems: FAQItem[] = [
   {
@@ -198,7 +201,24 @@ function Rich({ text }: { text: string }) {
 export default function NursingAusbildungPage() {
   return (
     <>
-      <FAQJsonLd items={faqItems} />
+      <JsonLd
+        data={pageGraph({
+          ...seo,
+          faq: faqItems,
+          breadcrumbs: [
+            { name: "Courses", path: "/courses/" },
+            { name: "Nursing Ausbildung", path: seo.path },
+          ],
+          extraNodes: [
+            serviceNode({
+              name: "Nursing Ausbildung placement and training",
+              description: seo.description,
+              path: seo.path,
+              serviceType: "Ausbildung placement and German language training",
+            }),
+          ],
+        })}
+      />
 
       <PageHero title="Study Nursing Ausbildung in Germany" cta={false} />
 

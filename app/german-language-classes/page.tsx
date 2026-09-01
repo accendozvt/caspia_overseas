@@ -6,16 +6,19 @@ import {
   SectionHeading,
   WhatsAppCTA,
   FAQ,
-  FAQJsonLd,
   type FAQItem,
 } from "@/components/ui";
+import { JsonLd } from "@/components/JsonLd";
+import { courseNode, pageGraph } from "@/lib/jsonld";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Best German Language Classes | Caspia Overseas Studies",
   description:
     "Caspia Overseas is the No.1 institute for German language classes in Kerala. Become proficient in German with expert trainers and a comprehensive A1-C1 curriculum.",
   path: "/german-language-classes/",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const faqItems: FAQItem[] = [
   {
@@ -142,7 +145,29 @@ const levels = [
 export default function GermanLanguageClassesPage() {
   return (
     <>
-      <FAQJsonLd items={faqItems} />
+      <JsonLd
+        data={pageGraph({
+          ...seo,
+          faq: faqItems,
+          breadcrumbs: [
+            { name: "Courses", path: "/courses/" },
+            { name: "German Language", path: seo.path },
+          ],
+          extraNodes: [
+            courseNode({
+              name: "German Language Classes (A1 to B2)",
+              description: seo.description,
+              path: seo.path,
+              teaches: "German language, CEFR levels A1 to B2",
+              // The four level cards actually shown on this page.
+              educationalLevel: ["A1", "A2", "B1", "B2"],
+              // Both are genuinely offered: classroom batches at the Vyttila campus,
+              // and the live online classes described in this page's own FAQ.
+              courseModes: ["Onsite", "Online"],
+            }),
+          ],
+        })}
+      />
 
       <PageHero
         eyebrow="Your Gateway to World-Class Education"

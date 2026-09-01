@@ -186,25 +186,6 @@ export function FAQ({
   );
 }
 
-/** JSON-LD FAQPage schema helper */
-export function FAQJsonLd({ items }: { items: FAQItem[] }) {
-  const data = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: items.map((it) => ({
-      "@type": "Question",
-      name: it.q,
-      acceptedAnswer: { "@type": "Answer", text: it.a },
-    })),
-  };
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
-    />
-  );
-}
-
 /* ---------- Contact / admission CTA band ---------- */
 export function ContactBand({
   title = "For Admission Related Queries",

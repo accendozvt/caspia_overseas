@@ -54,8 +54,16 @@ function collectFromPosts() {
   return images;
 }
 
+// Images that aren't OG images but still need real dimensions baked in: the company
+// logo is emitted as an ImageObject inside the Organization JSON-LD (lib/jsonld.ts).
+const ALWAYS_INCLUDE = ["/images/2023/01/Caspia-Squ.png"];
+
 async function main() {
-  const images = new Set([...collectFromAppPages(), ...collectFromPosts()]);
+  const images = new Set([
+    ...ALWAYS_INCLUDE,
+    ...collectFromAppPages(),
+    ...collectFromPosts(),
+  ]);
   const manifest = {};
   let missing = 0;
 

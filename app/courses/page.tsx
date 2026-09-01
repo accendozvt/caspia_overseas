@@ -2,13 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHero, SectionHeading, ContactBand } from "@/components/ui";
 import { pageMetadata } from "@/lib/metadata";
+import { JsonLd } from "@/components/JsonLd";
+import { pageGraph } from "@/lib/jsonld";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "German Language & Ausbildung Courses | Caspia",
   description:
     "Explore German language classes, OET/IELTS prep, and Ausbildung programs in Nursing, IT, Logistics, and more with Caspia Overseas Studies in Kochi, Kerala.",
   path: "/courses/",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const courses: { title: string; href?: string }[] = [
   { title: "German Language", href: "/german-language-classes/" },
@@ -77,6 +81,14 @@ function CourseCard({ title, href }: { title: string; href?: string }) {
 export default function CoursesPage() {
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          ...seo,
+          kind: "CollectionPage",
+          breadcrumbs: [{ name: "Courses", path: "/courses/" }],
+        })}
+      />
+
       <PageHero title="Courses" />
 
       {/* ============ COURSES ============ */}

@@ -9,18 +9,21 @@ import {
   WhatsAppCTA,
   PrimaryCTA,
   FAQ,
-  FAQJsonLd,
   type FAQItem,
 } from "@/components/ui";
+import { JsonLd } from "@/components/JsonLd";
+import { pageGraph } from "@/lib/jsonld";
 import { getAllPosts } from "@/lib/posts";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Best German Language Classes in Kerala - Caspia Overseas Studies",
   description:
     "Discover the best German language classes in Kerala, offering immersive learning experiences. Master German with Kerala's premier language institution.",
   path: "/",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const heroCountries = [
   "GERMANY",
@@ -154,7 +157,7 @@ export default function HomePage() {
 
   return (
     <>
-      <FAQJsonLd items={faqItems} />
+      <JsonLd data={pageGraph({ ...seo, faq: faqItems })} />
 
       {/* ============ HERO ============ */}
       <section className="relative bg-hero bg-hero-shine text-white overflow-hidden">

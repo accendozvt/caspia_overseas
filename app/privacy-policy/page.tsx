@@ -2,13 +2,17 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/ui";
 import { site } from "@/lib/site";
 import { pageMetadata } from "@/lib/metadata";
+import { JsonLd } from "@/components/JsonLd";
+import { pageGraph } from "@/lib/jsonld";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Privacy Policy & Data Protection | Caspia Overseas",
   description:
     "Read the Caspia Overseas Studies privacy policy: what personal information we collect on caspiaedu.com, how it's used, disclosed, and kept secure.",
   path: "/privacy-policy/",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const sections: { heading: string; text: string }[] = [
   {
@@ -44,6 +48,13 @@ const sections: { heading: string; text: string }[] = [
 export default function PrivacyPolicyPage() {
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          ...seo,
+          breadcrumbs: [{ name: "Privacy Policy", path: "/privacy-policy/" }],
+        })}
+      />
+
       <PageHero title="Privacy Policy" subtitle={site.name} cta={false} />
 
       <section className="py-12 md:py-16">

@@ -5,15 +5,18 @@ import {
 } from "@/components/ausbildung/AusbildungProgramPage";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "ATA Ausbildung in Germany | Caspia Overseas Studies",
   description:
     "Train as an Anesthesia Technical Assistant in Germany: earn €1,100-€1,350 monthly with zero tuition fees, no NEET required, for Kerala science students.",
   path: "/anesthesia-technical-assistant-ausbildung-caspia-overseas-kochi/",
   type: "article",
-});
+} as const;
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const data: AusbildungPageData = {
+  seo: { ...seo, programName: "Anesthesia Technical Assistant Ausbildung" },
   heroTitle: "Study Anesthesia Technical Assistant Ausbildung in Germany",
   headline:
     "Anesthesia Technical Assistant (ATA) Ausbildung in Germany: Your High-Tech Medical Career (2026)",

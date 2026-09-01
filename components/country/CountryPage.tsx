@@ -2,10 +2,11 @@ import Image from "next/image";
 import {
   WhatsAppCTA,
   PrimaryCTA,
-  FAQJsonLd,
   FaqGrid,
   type FAQItem,
 } from "@/components/ui";
+import { JsonLd } from "@/components/JsonLd";
+import { pageGraph, serviceNode } from "@/lib/jsonld";
 import { site } from "@/lib/site";
 
 /* ================= Types ================= */
@@ -47,7 +48,23 @@ export type CountrySection = {
   faqGroups?: CountryFaqGroup[];
 };
 
+/**
+ * SEO/JSON-LD facts for a country page. `title`, `description`, `path` and `image`
+ * are the same values the page hands to `pageMetadata()` - each page file defines
+ * them once and feeds both, so the meta tags and the structured data can't drift.
+ */
+export type CountrySeo = {
+  title: string;
+  description: string;
+  path: string;
+  image?: string;
+  imageAlt?: string;
+  /** Plain country name, e.g. "Germany". Used for the breadcrumb and Service name. */
+  countryName: string;
+};
+
 export type CountryData = {
+  seo: CountrySeo;
   heroTitle: string;
   /** Original "Register Today" button href from the source page */
   registerHref?: string;
@@ -466,7 +483,26 @@ export default function CountryPage({ data }: { data: CountryData }) {
 
   return (
     <>
-      {faqItems.length > 0 && <FAQJsonLd items={faqItems} />}
+      <JsonLd
+        data={pageGraph({
+          title: data.seo.title,
+          description: data.seo.description,
+          path: data.seo.path,
+          image: data.seo.image,
+          faq: faqItems,
+          breadcrumbs: [
+            { name: `Study in ${data.seo.countryName}`, path: data.seo.path },
+          ],
+          extraNodes: [
+            serviceNode({
+              name: `Study in ${data.seo.countryName} consultancy`,
+              description: data.seo.description,
+              path: data.seo.path,
+              serviceType: "Overseas education consultancy",
+            }),
+          ],
+        })}
+      />
       <CountryHero data={data} />
       {data.sections.map((section, i) => (
         <SectionBlock key={i} section={section} tone={toneFor(section)} />

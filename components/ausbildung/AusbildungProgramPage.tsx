@@ -5,10 +5,11 @@ import {
   WhatsAppCTA,
   PrimaryCTA,
   FAQ,
-  FAQJsonLd,
   ContactBand,
   type FAQItem,
 } from "@/components/ui";
+import { JsonLd } from "@/components/JsonLd";
+import { pageGraph, serviceNode } from "@/lib/jsonld";
 
 /* ---------------- Types ---------------- */
 
@@ -59,7 +60,23 @@ export type StepsSection = {
 
 export type Section = CardsSection | CareerSection | StepsSection;
 
+/**
+ * SEO/JSON-LD facts for an Ausbildung program page. `title`, `description`, `path`
+ * and `image` are the same values the page hands to `pageMetadata()` - each page file
+ * defines them once and feeds both, so meta tags and structured data can't drift.
+ */
+export type AusbildungSeo = {
+  title: string;
+  description: string;
+  path: string;
+  image?: string;
+  imageAlt?: string;
+  /** Short program name, e.g. "Logistics Ausbildung". Used for breadcrumb and Service name. */
+  programName: string;
+};
+
 export type AusbildungPageData = {
+  seo: AusbildungSeo;
   heroTitle: string;
   headline: string;
   subheadline: string;
@@ -424,7 +441,27 @@ function CtaButton({ cta, className = "" }: { cta: Cta; className?: string }) {
 export function AusbildungProgramPage({ data }: { data: AusbildungPageData }) {
   return (
     <>
-      <FAQJsonLd items={data.faq} />
+      <JsonLd
+        data={pageGraph({
+          title: data.seo.title,
+          description: data.seo.description,
+          path: data.seo.path,
+          image: data.seo.image,
+          faq: data.faq,
+          breadcrumbs: [
+            { name: "Courses", path: "/courses/" },
+            { name: data.seo.programName, path: data.seo.path },
+          ],
+          extraNodes: [
+            serviceNode({
+              name: `${data.seo.programName} placement and training`,
+              description: data.seo.description,
+              path: data.seo.path,
+              serviceType: "Ausbildung placement and German language training",
+            }),
+          ],
+        })}
+      />
 
       <PageHero title={data.heroTitle} cta={false} />
 

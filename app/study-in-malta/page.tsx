@@ -2,16 +2,19 @@ import type { Metadata } from "next";
 import CountryPage, { type CountryData } from "@/components/country/CountryPage";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Study in Malta - Caspia Overseas Studies - No.1 in Kerala",
   description:
     "Study in Malta with Caspia Overseas Studies: enjoy affordability, Schengen access, and vibrant culture while building your European academic future.",
   path: "/study-in-malta/",
   image: "/images/2025/01/Malta.png",
   imageAlt: "Study in Malta with Caspia Overseas Studies",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const data: CountryData = {
+  seo: { ...seo, countryName: "Malta" },
   heroTitle: "Study in Malta",
   registerHref: "https://bit.ly/3NpzrDU",
   enquireHref:

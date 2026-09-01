@@ -4,7 +4,9 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import { JsonLd } from "@/components/JsonLd";
 import { site } from "@/lib/site";
+import { siteGraph } from "@/lib/jsonld";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -46,28 +48,6 @@ export const viewport: Viewport = {
   themeColor: "#584f82",
 };
 
-const organizationJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: site.name,
-  url: site.url,
-  logo: `${site.url}/images/2023/01/Caspia-Squ.png`,
-  telephone: site.phone,
-  email: site.email,
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Vyttila, Kochi",
-    addressRegion: "Kerala",
-    addressCountry: "IN",
-  },
-  sameAs: [
-    site.social.facebook,
-    site.social.instagram,
-    site.social.youtube,
-    site.social.linkedin,
-  ],
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -76,10 +56,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${googleSans.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
-        />
+        {/* Sitewide Organization + WebSite. Every page's own graph references these by @id. */}
+        <JsonLd data={siteGraph()} />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

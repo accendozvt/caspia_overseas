@@ -2,16 +2,19 @@ import type { Metadata } from "next";
 import CountryPage, { type CountryData } from "@/components/country/CountryPage";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = pageMetadata({
+const seo = {
   title: "Study in Australia - Caspia Overseas Studies - No.1 in Kerala",
   description:
     "Study in Australia with Caspia Overseas Studies: expert guidance on world-class universities, post-study work visas, and English-speaking campus life.",
   path: "/study-in-australia/",
   image: "/images/2023/11/Australia.png",
   imageAlt: "Study in Australia with Caspia Overseas Studies",
-});
+};
+
+export const metadata: Metadata = pageMetadata(seo);
 
 const data: CountryData = {
+  seo: { ...seo, countryName: "Australia" },
   heroTitle: "Study in Australia",
   registerHref: "https://bit.ly/3NpzrDU",
   enquireHref:

@@ -1,6 +1,11 @@
 export const site = {
   name: "Caspia Overseas Studies",
+  legalName: "Caspia Overseas Studies",
   tagline: "The Best German Language Classes in Kerala",
+  // Single source of truth for the one-line company description. Used by the
+  // Organization JSON-LD (lib/jsonld.ts) and by /llms.txt, so the two can't drift.
+  description:
+    "Caspia Overseas Studies is a German language training institute and study-abroad and Ausbildung guidance company based in Vyttila, Kochi, Kerala, India.",
   url: "https://caspiaedu.com",
   phone: "+91 9446 511 115",
   phoneHref: "tel:+919446511115",

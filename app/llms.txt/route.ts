@@ -135,7 +135,7 @@ export async function GET() {
     [
       `# ${site.name}`,
       `> ${site.tagline}`,
-      `${site.name} is a German language training institute and study-abroad and Ausbildung guidance company based in ${site.address}, Kerala, India, with branches in ${site.branches.join(", ")}.`,
+      `${site.description} Branches: ${site.branches.join(", ")}.`,
       ...sections.map((s) => renderSection(s.heading, s.entries)),
       blogSection,
       optionalSection,

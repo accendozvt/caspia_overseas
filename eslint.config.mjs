@@ -13,6 +13,13 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  {
+    // Build-time helper scripts are plain CommonJS run directly by `node` (via the
+    // npm "og:dimensions" and "postbuild" scripts). They are never bundled, so the
+    // TypeScript-oriented ESM import rule does not apply to them.
+    files: ["scripts/**/*.js"],
+    rules: { "@typescript-eslint/no-require-imports": "off" },
+  },
 ]);
 
 export default eslintConfig;
