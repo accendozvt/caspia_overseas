@@ -470,14 +470,18 @@ export default function HomePage() {
               <div>
                 <h4 className="font-extrabold text-lg">Download Nursing Handbook</h4>
               </div>
-              <a
-                href="https://caspiaedu.com/wp-content/uploads/2023/04/Brochure.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+              {/*
+                Was a leftover WordPress path (/wp-content/uploads/2023/04/Brochure.pdf)
+                that no longer exists and 404'd. Points at /courses/ until the handbook
+                PDF is available. Internal now, so it uses Link and drops the
+                target/rel pair that only applied to the external file.
+              */}
+              <Link
+                href="/courses/"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-secondary bg-accent hover:brightness-110 transition-all"
               >
                 Download Now
-              </a>
+              </Link>
             </div>
           </div>
           <div>
