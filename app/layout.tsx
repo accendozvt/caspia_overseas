@@ -58,8 +58,14 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         {/* Sitewide Organization + WebSite. Every page's own graph references these by @id. */}
         <JsonLd data={siteGraph()} />
+        {/* Lets keyboard users jump past the nav. Styles live in globals.css (.skip-link). */}
+        <a href="#main-content" className="skip-link">
+          Skip to main content
+        </a>
         <Header />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1">
+          {children}
+        </main>
         <Footer />
         <FloatingButtons />
       </body>

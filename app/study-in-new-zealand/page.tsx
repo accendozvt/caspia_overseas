@@ -21,7 +21,7 @@ const data: CountryData = {
     "https://api.whatsapp.com/send?phone=919446511115&text=Hi,%20I%20would%20like%20to%20know%20more%20about%20higher%20education%20opportunities%20in%20Germany",
   heroImage: {
     src: "/images/2025/01/New-Zealand-1024x651.png",
-    alt: "",
+    alt: "Map of New Zealand beside a smiling student carrying a folder and a backpack",
     width: 1024,
     height: 651,
   },
@@ -59,7 +59,7 @@ const data: CountryData = {
       ],
       image: {
         src: "/images/2025/01/5533.jpg",
-        alt: "",
+        alt: "Auckland skyline and harbour seen across the water, with the Sky Tower at its centre",
         width: 1000,
         height: 563,
       },

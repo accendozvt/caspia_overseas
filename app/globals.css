@@ -28,6 +28,40 @@ body {
   font-family: var(--font-sans);
 }
 
+/*
+  Skip-to-content link (rendered in app/layout.tsx). Written as plain CSS rather than
+  Tailwind utilities on purpose: Tailwind 4 parses `not-sr-only` as the `not-*` variant,
+  so `sr-only focus:not-sr-only` leaves the link clipped even when focused, and the
+  utility `focus:translate-y-0` loses to the base translate. Explicit CSS is unambiguous.
+  The link stays in the accessibility tree at all times and is only moved off-screen.
+*/
+.skip-link {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 100;
+  transform: translateY(-200%);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  color: var(--color-secondary);
+  font-weight: 600;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.25);
+  transition: transform 150ms ease-in-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skip-link {
+    transition: none;
+  }
+}
+
 h1,
 h2,
 h3,

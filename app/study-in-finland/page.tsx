@@ -21,7 +21,7 @@ const data: CountryData = {
     "https://api.whatsapp.com/send?phone=919446511115&text=Hi,%20I%20would%20like%20to%20know%20more%20about%20higher%20education%20opportunities%20in%20Germany",
   heroImage: {
     src: "/images/2025/01/Finland-1024x651.png",
-    alt: "",
+    alt: "Map of Finland beside a smiling student pointing towards it",
     width: 1024,
     height: 651,
   },
@@ -61,7 +61,7 @@ const data: CountryData = {
       ],
       image: {
         src: "/images/2025/01/118.jpg",
-        alt: "",
+        alt: "Aerial view of a castle with a green-domed tower on an island beside a harbour town",
         width: 1000,
         height: 666,
       },

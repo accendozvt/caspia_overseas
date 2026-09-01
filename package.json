@@ -8,7 +8,8 @@
     "postbuild": "node scripts/generate-llms-full.js",
     "start": "next start",
     "lint": "eslint",
-    "og:dimensions": "node scripts/generate-og-dimensions.js"
+    "og:dimensions": "node scripts/generate-og-dimensions.js",
+    "icons": "node scripts/generate-icons.js"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

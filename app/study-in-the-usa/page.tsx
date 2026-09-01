@@ -21,7 +21,7 @@ const data: CountryData = {
     "https://api.whatsapp.com/send?phone=919446511115&text=Hi,%20I%20would%20like%20to%20know%20more%20about%20higher%20education%20opportunities%20in%20Germany",
   heroImage: {
     src: "/images/2023/11/USA.png",
-    alt: "",
+    alt: "Map of the United States beside a smiling student carrying folders and a backpack",
     width: 1007,
     height: 640,
   },

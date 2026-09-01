@@ -4,6 +4,11 @@ import { PrimaryCTA, WhatsAppCTA } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Page Not Found",
+  // Required: without it this page inherits the root layout's "index, follow", which
+  // then sits alongside the separate noindex tag Next.js emits for not-found - two
+  // directly contradictory robots directives on one page. Setting it here replaces the
+  // inherited value, so both tags agree on noindex.
+  robots: "noindex, follow",
 };
 
 export default function NotFound() {
